@@ -286,7 +286,7 @@ h1 {
     
     var printable3 = new Printable()
     printable3.init({
-      styles: styles + "body > div { width: 33vw; } img { display: none; } dl.meal dt + dd { font-style: normal !important; font-weight: 600; font-size: 12pt; margin-bottom: 0.3em; } }",
+      styles: styles + "body > div { width: 33vw; height: 20Svh; } img { display: none; } dl.meal dt + dd { font-style: normal !important; font-weight: 600; font-size: 12pt; margin-bottom: 0.3em; } }",
       parentSelector: '#pivo, #beer',
       printButtonText: 'Vytisknout speciální nabídku piva (3×5, A3 na výšku)',
       childrenSelector: [".beer dl.meal[data-type='Beer']"],
