@@ -49,7 +49,7 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n(.+ )?\d{1,3} Kč){1,2}" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Hovězí maso s rajskou omáčkou&#13;
-Vařená hovězí kýta v rajské omáčce, naše houskové knedlíky.&#13;
+Vařený hovězí krk v rajské omáčce, naše houskové knedlíky.&#13;
 189 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Pečené kuře&#13;
 Pomalu pečené kuře v naší unikátní peci na bukovém dřevě s kouřovým aroma, mléčná bramborová kaše, míchaný salát s balkánským sýrem a zelenými olivami.&#13;
