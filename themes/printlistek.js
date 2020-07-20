@@ -104,7 +104,7 @@
     };
     
     var styles = `
-@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700');
+  @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700');
 * {
   margin: 0;
   padding: 0;
@@ -249,16 +249,29 @@ dl.meal dd:not(.price) {
   padding-right: 1em;
   font-style: italic;
 }
-    `;
+`
     
+const styles2 = `
+body > div {
+  width: 147mm;
+  height: 209mm;
+}
+body > div > div > * {
+  margin: 0 auto;
+}
+h1 {
+  padding-top: 2em;
+}
+`
+ 
     var printable = new Printable()
     printable.init({
-      styles: styles,
+      styles: styles + styles2,
       parentSelector: '#denni_nabidka, #daily_offer',
-      printButtonText: 'Vytisknout denní nabídku (A6 na výšku)',
+      printButtonText: 'Vytisknout denní nabídku (4×A5)',
       childrenSelector: [".daily_offer dl.meal[data-type='Soup']", ".daily_offer dl.meal[data-type='Starter']", ".daily_offer dl.meal[data-type='Main meal']"],
       allChildren: true,
-      copies: 8
+      copies: 4
     })
     
     var printable2 = new Printable()
@@ -273,11 +286,11 @@ dl.meal dd:not(.price) {
     
     var printable3 = new Printable()
     printable3.init({
-      styles: styles + "img { max-width: 8em; } body > div:after { display: none; } dl.meal dt + dd { font-style: normal !important; font-weight: 600; font-size: 12pt; margin-bottom: 0.3em; } }",
+      styles: styles + "body > div { width: 33vw; } img { display: none; } dl.meal dt + dd { font-style: normal !important; font-weight: 600; font-size: 12pt; margin-bottom: 0.3em; } }",
       parentSelector: '#pivo, #beer',
-      printButtonText: 'Vytisknout speciální nabídku piva (A6 na výšku)',
+      printButtonText: 'Vytisknout speciální nabídku piva (3×5, A3 na výšku)',
       childrenSelector: [".beer dl.meal[data-type='Beer']"],
-      copies: 16
+      copies: 15
     })
 
   });
