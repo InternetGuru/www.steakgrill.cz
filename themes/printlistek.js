@@ -261,6 +261,8 @@ body > div > div > * {
 }
 h1 {
   padding-top: 2em;
+  max-width: 10em;
+  left: -2.5em;
 }
 `
  
