@@ -45,11 +45,15 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n(.+ )?\d{1,3} Kč){1,2}" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Rožněná hovězí kýta&#13;
-Hovězí kýta z mladého býka z českého chovu rožněná na bukovém dřevě, lahůdkové brambory, pikantní salát z kysaného zelí (150g masa po upečení).&#13;
-239 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2"/>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3"/>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Zvěřinový guláš&#13;
+Dušené kančí a srnčí maso s cibulí, divokým kořením a červeným vínem, paprika, česnek, naše karlovarské knedlíky.&#13;
+189 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Smažený krůtí&#13;
+V trojobalu dozlatova smažený, mléčná bramborová kaše, míchaný salát.&#13;
+189 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Domácí kynuté meruňkové knedlíky&#13;
+České zralé meruňky, strouhaný tvaroh, přepuštěné máslo, moučkový cukr, šlehaný tvaroh, meruňková omáčka.&#13;
+159 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
