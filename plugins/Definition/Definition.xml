@@ -6,6 +6,12 @@
        href="https://www.hostovka.cz/chili"
        data-definition-href-title="Recept na vítězné chilli na Hostovce"
        data-definition-desc="Polévku přezdíváme „vítězné chilli“, protože s ní Mike vyhrál v Americe první cenu – 5 000 dolarů."/>
+  <def id="kaldoun"
+       class="definition"
+       title="Tradiční česká polévka"
+       href="https://www.hostovka.cz/kaldoun"
+       data-definition-href-title="Článek o kaldounu na Hostovce"
+       data-definition-desc="Každý kaldoun má svá specifika. Obecně to je ne příliš hustá krémová polévka z drůbežího vývaru s drůbky…"/>
   <def id="fondant"
        class="definition"
        title="Cukrová hmota, která se pomalu rozpouští v ústech"
