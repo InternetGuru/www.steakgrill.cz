@@ -33,11 +33,11 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka, 1. srpna 2020</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka, 2. srpna 2020</var>
   <var var="cms-server" id="nabidka-popis">Každý všední den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n.*\d+ Kč){2}" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Česnečka&#13;
-S hovězím masem, zeleninou, bramborami, vejcem, majoránkou a chlebovými krutony.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Boršč&#13;
+Hovězí a vepřové maso, kořenová zelenina, červená řepa, brambory, cibule, zakysaná smetana.&#13;
 malá 49 Kč&#13;
 velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka2"/>
@@ -47,13 +47,13 @@ velká 55 Kč</var>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n(.+ )?\d{1,3} Kč){1,2}" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Grilované koleno&#13;
 Grilované vepřové koleno, cibulový dalamánek,hořčicový křen, Jalapeño papričky.&#13;
-239 Kč</var>
+229 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Znojemská hovězí pečeně&#13;
 Dušená vyzrálá uruguayská kýta v delikátní omáčce s tence krájenými kyselými okurkami, jasmínová rýže.&#13;
 199 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Vepřový závitek s olivami&#13;
 Plátek vepřové pečeně plněný mletým masem, bylinkami a zelenými olivami, lahůdkové brambory s rozmarýnem, máslový hrášek.&#13;
-199 Kč</var>
+189 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
