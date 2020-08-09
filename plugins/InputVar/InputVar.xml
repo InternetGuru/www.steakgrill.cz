@@ -33,7 +33,7 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka, 8. srpna 2020</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka, 9. srpna 2020</var>
   <var var="cms-server" id="nabidka-popis">Každý všední den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n.*\d+ Kč){2}" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Frankfurtská polévka&#13;
@@ -48,9 +48,9 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Rožněná krkovice&#13;
 Rožněná marinovaná vepřová krkovice v celku, pečené lahůdkové brambory, pikantní salát z kysaného zelí, hořčice.&#13;
 219 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Hovězí po Burgundsku&#13;
-Dušená, vyzrálá uruguayská hovězí kýta na červeném víně s kořenovou zeleninou, cibulkami a řapíkatým celerem, mléčná bramborová kaše.&#13;
-229 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Kuřecí roláda&#13;
+Vykostěné kuře, plněné špenátem, mléčná bramborová kaše, brokolice na másle.&#13;
+189 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Srnčí na smetaně&#13;
 Srnčí kýta a hřbet pečené s kořenovou zeleninou a slaninou v delikátní smetanové omáčce, naše houskové knedlíky, citron, brusinky.&#13;
 229 Kč</var>
