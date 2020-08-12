@@ -111,17 +111,17 @@ http://www.slunceveskle.cz/wp-content/uploads/2013/08/Zichovec.png&#13;
 <!--   <var id="lock">Administrace je uzamčená z důvodu údržby. Zkuste to později nebo kontaktujte administrátory webu.</var> -->
 
   <message to=" honzajk@steakgrill.cz lisec.tom@seznam.cz pavel.petrzela@internetguru.cz jiri.pavelka@internetguru.cz pavlina.militka@gmail.com lukasbula41@gmail.com denisa.volakova96@seznam.cz madmann@seznam.cz vithavlu@gmail.com" subject="Administrace jídel $cms-url">Dobrý den,
-na adrese $cms-url/listek došlo k uživatelské úpravě jídel.
+na webu $cms-url právě došlo k uživatelské úpravě dat.
 
 – Uživatel: $user
-– Čas změny: $date
-– Uživatelská administrace: $cms-url/?InputVar
+– Čas úpravy: $date
+– Administrace: $cms-url/?InputVar
 
-Výspis rozdílů aktuální úpravy:
+Výpis rozdílů:
 
 $diff
 
 -- 
 Pro zobrazení aktuálního obsahu použijte funkci Obnovit (klávesa F5) prohlížeče.
-$inputvar-service_plain</message>
+Provozováno službou $inputvar-service_plain</message>
 </InputVar>
