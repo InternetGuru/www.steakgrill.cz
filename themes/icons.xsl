@@ -19,18 +19,22 @@
         <xsl:when test="parent::dl[@data-type='Pastry']">
           <span class="fal fa-croissant">i</span>
         </xsl:when>
+        <xsl:when test="parent::dl[@data-type='Beer']">
+          <span class="fal fa-beer">i</span>
+        </xsl:when>
       </xsl:choose>
       <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>
   
+<!--
   <xsl:template match="//dl[contains(@class, 'meal')][@data-type='Beer']/dd[1]">
     <xsl:copy>
       <span class="fal fa-beer">i</span>
       <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>
-
+ -->
   <xsl:template match="node()|@*">
     <xsl:copy>
       <xsl:apply-templates select="node()|@*"/>
