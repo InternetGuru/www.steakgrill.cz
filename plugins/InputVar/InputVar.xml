@@ -24,8 +24,8 @@
     <call>formatjidlonbsp</call>
     <call>formatjidlo3</call>
   </fn>
+<!--     <call>formatjidlo1pivo</call> -->
   <fn id="formatpivo" fn="sequence">
-    <call>formatjidlo1pivo</call>
     <call>formatjidlo2</call>
     <call>formatjidlonbsp</call>
     <call>formatjidlo3</call>
