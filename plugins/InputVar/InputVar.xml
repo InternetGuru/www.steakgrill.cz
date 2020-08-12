@@ -64,13 +64,6 @@ Dušená s cibulí a slaninou, jasmínová rýže.&#13;
   <var var="cms-server" fn="formatjidlo" id="nabidka-pecivo1"/>
   <set type="textarea" for="nabidka-pivo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*.\n(\n\d,\d l \d+ Kč)+" placeholder="Benedict ležák 12°&#10;Klasická světlá dvanáctka z Břevnovského klášterního pivovaru. Vyrobena tradičním způsobem. Vyznačuje se plností a silnou chutí s jemnou hořkostí.&#10;0,3 l 32 Kč&#10;0,5 l 47 Kč">Denní nabídka – pivo</set>
   <var var="cms-server" fn="formatpivo" id="nabidka-pivo1"/>
-  
-    <set type="textarea" for="nabidka-pivo" pattern="" placeholder="Benedict ležák 12°&#10;Klasická světlá dvanáctka z Břevnovského klášterního pivovaru. Vyrobena tradičním způsobem. Vyznačuje se plností a silnou chutí s jemnou hořkostí.&#10;http://www.slunceveskle.cz/wp-content/uploads/2013/08/Zichovec.png&#10;0,3 l 32 Kč&#10;0,5 l 47 Kč">Speciální nabídka piva</set>
-  <var var="cms-server" fn="formatpivo" id="nabidka-pivo">Zichovec spotlight ale 9°&#13;
-Osvěžující devítka s příjemnou bylinnou vůni a výraznou citrusovou chutí.&#13;
-http://www.slunceveskle.cz/wp-content/uploads/2013/08/Zichovec.png&#13;
-0,3 l 33 Kč&#13;
-0,5 l 50 Kč</var>
 
 
   
