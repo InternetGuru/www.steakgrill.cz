@@ -264,6 +264,9 @@ h1 {
   max-width: 10em;
   left: -2.5em;
 }
+.meal {
+  padding-bottom: 0.5em;
+}
 `
  
     var printable = new Printable()
@@ -271,7 +274,7 @@ h1 {
       styles: styles + styles2,
       parentSelector: '#denni_nabidka, #daily_offer',
       printButtonText: 'Vytisknout denní nabídku (4×A5)',
-      childrenSelector: [".daily_offer dl.meal[data-type='Soup']", ".daily_offer dl.meal[data-type='Starter']", ".daily_offer dl.meal[data-type='Main meal']"],
+      childrenSelector: [".daily_offer dl.meal"],
       allChildren: true,
       copies: 4
     })
