@@ -37,7 +37,7 @@
   <var var="cms-server" id="nabidka-popis">Každý všední den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n.*\d+ Kč){2}" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Tomatový krém&#13;
-Krémová polévka z rajčat, bešamelu a smetany s máslovými krutony.&#13;
+S máslovými krutony.&#13;
 malá 49 Kč&#13;
 velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka2"/>
@@ -52,10 +52,10 @@ Půlka pečeného kuřete v naší unikátní peci s kouřovým aroma, dalamáne
 Dušená libová hovězí kližka s cibulí, česnekem a červenou paprikou, pivo, sázené vejce, opečená klobása, naše houskové knedlíky.&#13;
 189 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Beef Stew&#13;
-Americká specialita, v jednom hrnci dušená vyzrálá hovězí kýta s mrkví, řapíkatým celerem, brambory a hráškem, 1/2 opečené bagety s česnekovým máslem.&#13;
+V jednom hrnci dušená vyzrálá hovězí kýta s mrkví, řapíkatým celerem, brambory a hráškem, 1/2 opečené bagety s česnekovým máslem.&#13;
 199 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Geschnetzeltes&#13;
-Švýcarská specialita, na nudličky krájená vepřová panenka v delikátní smetanové omáčce s bílým vínem a žampiony, bramborové rösti.&#13;
+Na nudličky krájená vepřová panenka v delikátní smetanové omáčce s bílým vínem a žampiony, bramborové rösti.&#13;
 189 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
