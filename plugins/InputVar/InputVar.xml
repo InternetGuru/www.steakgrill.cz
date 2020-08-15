@@ -46,7 +46,7 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n(.+ )?\d{1,3} Kč){1,2}" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Pečené kuře&#13;
-Půlka pečeného kuřete v naší unikátní peci na bukovém dřevě s kouřovým aroma, dalamánek, míchaný salát s balkánským sýrem a olivami.&#13;
+Půlka pečeného kuřete v naší unikátní peci s kouřovým aroma, dalamánek, míchaný salát s balkánským sýrem a olivami.&#13;
 239 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Plzeňský guláš&#13;
 Dušená libová hovězí kližka s cibulí, česnekem a červenou paprikou, pivo, sázené vejce, opečená klobása, naše houskové knedlíky.&#13;
@@ -66,7 +66,7 @@ Americká specialita, v jednom hrnci dušená vyzrálá hovězí kýta s mrkví,
   <var var="cms-server" fn="formatjidlo" id="nabidka-pecivo1"/>
   <set type="textarea" for="nabidka-pivo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*(\n\d,\d l \d+ Kč)+" placeholder="Benedict ležák 12°&#10;Klasická světlá dvanáctka z Břevnovského klášterního pivovaru. Vyrobena tradičním způsobem. Vyznačuje se plností a silnou chutí s jemnou hořkostí.&#10;0,3 l 32 Kč&#10;0,5 l 47 Kč">Denní nabídka – pivo</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-pivo1">Cobolis summer ALE Ďábelská 6°&#13;
-Letní svrchně kvašený ALE se stupňovitostí pouze 6°, 6 sladů a 6x chmelený = prostě ďábelský 666, s nižším obsahem alkoholu (1,9%) a výraznější hořkostí, kdo ochutná zamiluje se do nespočtu tónů a chutí tohoto piva.&#13;
+Letní svrchně kvašený ALE se stupňovitostí pouze 6°, 6 sladů a 6x chmelený = prostě ďábelský 666.&#13;
 0,3 l 32 Kč&#13;
 0,5 l 45 Kč</var>
 
