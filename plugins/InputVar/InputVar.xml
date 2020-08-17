@@ -46,7 +46,7 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n(.+ )?\d{1,3} Kč){1,2}" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Pečené kuře&#13;
-Pomalu pečené v naší unikátní peci s kouřovým aroma, dalamánek, míchaný salát, BBQ dip.&#13;
+Pomalu pečené v naší unikátní peci s kouřovým aroma, česneková bageta, míchaný salát, BBQ dip.&#13;
 179 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Pečený mořský vlk&#13;
 Čerstvá mořská ryba marinovaná ve směsi koření, pečené lahůdkové brambory s rozmarýnem, restovaná zelenina s cukrovou kukuřicí, citron.&#13;
