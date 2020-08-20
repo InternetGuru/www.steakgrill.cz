@@ -45,18 +45,18 @@ velká 52 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n(.+ )?\d{1,3} Kč){1,2}" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Vepřový bůček na cideru&#13;
-Pomalu pečený bůček s tymiánem a jablečným ciderem, jihočeská lepenice, jarní cibulka, šťáva z výpeku.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Fritto misto di mare&#13;
+V trojobalu dozlatova smažená treska, losos a krevety, hranolky, naše tatarská omáčka, citron.&#13;
+199 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Pečené kuřecí stehno&#13;
+Na másle pečené kuřecí stehno, nádivka s burgundskou šunkou, lahůdkové brambory s máslem a petrželkou, rajčatový salát.&#13;
 179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Vařené hovězí maso s rajskou omáčkou&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Vařené hovězí maso s rajskou omáčkou&#13;
 Vyzrálá uruguayská hovězí kýta v rajské omáčce, naše houskové knedlíky.&#13;
 179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Grilovaný vepřový šašlik&#13;
-Marinovaná vepřová panenka grilovaná na špízu s cibulí a paprikou, zakončené rajčetem a žampionem, šťouchané brambory, salát Coleslaw.&#13;
-189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Kachní roláda&#13;
-Pomalu pečená roláda s rozmarýnem, naše bramborové knedlíky červené vinné zelí, smažená cibulka, šťáva z výpeku.&#13;
-219 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Vepřový bůček na cideru&#13;
+Pomalu pečený bůček s tymiánem a jablečným ciderem, jihočeská lepenice, jarní cibulka, šťáva z výpeku.&#13;
+179 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n(.+ )?\d{1,3} Kč){1,2}" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
