@@ -33,14 +33,17 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka, 25. srpna 2020</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka, 26. srpna 2020</var>
   <var var="cms-server" id="nabidka-popis">Každý všední den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n.*\d+ Kč){2}" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Brokolicová polévka&#13;
-Krémová polévka z brokolice a smetany, máslové krutony.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Kukuřičný Chowder&#13;
+Americká národní krémová polévka z kukuřice.&#13;
 malá 49 Kč&#13;
 velká 55 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka2"/>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka2">Špenátový krém&#13;
+Krémová polévka ze špenátu, cibule a smetany s máslovými krutony.&#13;
+malá 49 Kč&#13;
+velká 55 Kč</var>
   <set type="textarea" for="nabidka-predkrm\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n(.+ )?\d{1,3} Kč){1,2}" placeholder="Tatarský steak ze svíčkové, 50 g&#10;Námi míchaný 50g tataráček s topinkami a česnekem.&#10;129 Kč">Denní nabídka – předkrmy</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
@@ -51,10 +54,12 @@ Daňčí kýta a hřbet v delikátní omáčce z kořenové zeleniny, špeku a s
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Duck Fried Rice&#13;
 Pražená rýže s kachním masem, zeleninou a žampiony, sázené vejce, kyselá okurka.&#13;
 189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Tortilla s vepřovou panenkou&#13;
-Pšeničná placka plněná vepřovou panenkou, cibulí, červenou a zelenou paprikou, ledovým salátem a čedarem, sýrová salsa, hranolky, Jalapeño papričky.&#13;
-189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4"/>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Holandský řízek&#13;
+Mleté vepřové maso se sýrem gouda smažené v trojobalu dozlatova, mléčná bramborová kaše, okurkový salát.&#13;
+179 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Kančí výpečky&#13;
+Pomalu pečené výpečky z mladého divokého prasete, cibule, česnek, naše bramborové špalíčky, krémový špenát, smaž. cibule.&#13;
+199 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n(.+ )?\d{1,3} Kč){1,2}" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
