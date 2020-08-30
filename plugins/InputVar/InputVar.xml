@@ -61,9 +61,7 @@ Pomalu rožněná krůta, šťouchané brambory se slaninou a pórkem, krémový
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert2"/>
   <set type="textarea" for="nabidka-pecivo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n(.+ )?\d{1,3} Kč){1,2}" placeholder="Škvarková placka naší Aničky&#10;Mouka, vepřové škvarky, kmín a sůl.&#10;35 Kč">Denní nabídka – pečivo</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-pecivo1">Škvarková placka&#13;
-Od naší Aničky.&#13;
-19 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-pecivo1"/>
   <set type="textarea" for="nabidka-pivo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*(\n\d,\d l \d+ Kč)+" placeholder="Benedict ležák 12°&#10;Klasická světlá dvanáctka z Břevnovského klášterního pivovaru. Vyrobena tradičním způsobem. Vyznačuje se plností a silnou chutí s jemnou hořkostí.&#10;0,3 l 32 Kč&#10;0,5 l 47 Kč">Denní nabídka – pivo</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-pivo1">Svižnej Emil 9°&#13;
 Svrchně kvašené svěží pivo typu American Pale Ale s nižším obsahem alkoholu uvařené ze tří druhu sladu, chmelené českou odrůdou Harmonie a americkou odrůdou Citra .&#13;
