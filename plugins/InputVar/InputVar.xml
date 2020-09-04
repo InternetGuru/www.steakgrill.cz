@@ -46,7 +46,7 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n(.+ )?\d{1,3} Kč){1,2}" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Smažené kuřecí paličky&#13;
-Kuřecí paličky obalené v ochucené strouhance s kukuřičnými lupínky, parmezánem a sezamem, mléčná bramborová kaše, míchaný salát se zelenými olivami.&#13;
+Kuřecí paličky obalené v ochucené strouhance, mléčná bramborová kaše, míchaný salát se zelenými olivami.&#13;
 189 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Vepřová kýta na paprice&#13;
 Pomalu dušený ořech z vepřové kýty s cibulí a červenou paprikou v delikátní smetanové omáčce, naše špecle.&#13;
