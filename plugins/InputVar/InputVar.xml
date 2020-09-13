@@ -65,7 +65,10 @@ Prso s kostí a kůží grilované s bylinkovou marinádou, šťouchané brambor
   <set type="textarea" for="nabidka-pecivo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n(.+ )?\d{1,3} Kč){1,2}" placeholder="Škvarková placka naší Aničky&#10;Mouka, vepřové škvarky, kmín a sůl.&#10;35 Kč">Denní nabídka – pečivo</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-pecivo1"/>
   <set type="textarea" for="nabidka-pivo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*(\n\d,\d l \d+ Kč)+" placeholder="Benedict ležák 12°&#10;Klasická světlá dvanáctka z Břevnovského klášterního pivovaru. Vyrobena tradičním způsobem. Vyznačuje se plností a silnou chutí s jemnou hořkostí.&#10;0,3 l 32 Kč&#10;0,5 l 47 Kč">Denní nabídka – pivo</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-pivo1"/>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-pivo1">Libertas APA 11°&#13;
+Speciální pivo svrchně kvašené (American Pale Ale) uvařené z několika druhů sladu a kvalitních chmelů, které kromě jemné hořkosti zanechávají ve vůni i v chuti znatelné aroma tropického ovoce.&#13;
+0,3 l 34 Kč&#13;
+0,5 l 54 Kč</var>
 
 
   
