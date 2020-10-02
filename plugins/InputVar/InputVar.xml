@@ -33,11 +33,11 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka, 1. října 2020</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka, 2. října 2020</var>
   <var var="cms-server" id="nabidka-popis">Každý všední den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n.*\d+ Kč){2}" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Vichyssoise&#13;
-Francouzská polévka z pórku, brambor a smetany.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Tomatový krém&#13;
+Máslové krutony.&#13;
 malá 49 Kč&#13;
 velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka2"/>
@@ -45,15 +45,15 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n(.+ )?\d{1,3} Kč){1,2}" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Vepřový závitek&#13;
-Plátky vepřové pečeně plněné klobásou, kyselou okurkou, vejcem a cibulí dušené s cibulí a hořčicí, jasmínová rýže.&#13;
-189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Vepřová žebra&#13;
-Kousky vepřových žeber pečené v BBQ omáčce, šťouchané brambory se slaninou a pórkem, Coleslaw.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Vepřové ledvinky se žampiony&#13;
+Dušené ledvinky s cibulí, slaninou a žampiony v delikátní omáčce, rýže s hráškem (Risi Bisi).&#13;
+179 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">BBQ vepřová žebra&#13;
+Kousky vepřových žeber pečené v BBQ omáčce, šťouchané brambory se slaninou a pórkem, coleslaw.&#13;
 199 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Smažený kapustový karbanátek&#13;
-V trojobalu dozlatova smažený karbanátek z mletého vepřového masa a kapusty, mléčná bramborová kaše s oříškovým máslem, míchaný salát se zelenými olivami.&#13;
-169 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Pečené krůtí stehno&#13;
+Na másle pomalu pečené stehno z mladé krůty, vařené lahůdkové brambory s petrželkou, brokolice na másle, šťáva z výpeku.&#13;
+229 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
