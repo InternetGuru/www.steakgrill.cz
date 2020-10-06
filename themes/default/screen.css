@@ -971,34 +971,16 @@ svg.fa-facebook {
   border-bottom: none !important;
 }
 .js-slideable-left {
-  left: -4em !important;
+  left: 15% !important;
 }
 .js-slideable-right {
-  right: -4em !important;
-}
-@media all and (max-width: 35em) {
-  .js-slideable-left,
-  .js-slideable-right {
-    top: 1.55em;
-  }
-  .js-slideable-left {
-    left: 5% !important;
-  }
-  .js-slideable-right {
-    right: 5% !important;
-  }
+  right: 15% !important;
 }
 .js-slideable-left:hover,
 .js-slideable-right:hover,
 .js-slideable-left:focus,
 .js-slideable-right:focus {
   color: #616161 !important;
-}
-.js-slideable-left {
-  left: -1em;
-}
-.js-slideable-right {
-  right: -1em;
 }
 /*********************************/
 #content .contenttoc {
@@ -1465,7 +1447,7 @@ body.inputvar #inputvarform input[name="save"] {
 .js-slideable-right {
   transition: 0.25s ease-out;
   position: absolute;
-  bottom: 4em;
+  top: 1.7em;
   color: #616161 !important;
   color: rgba(97, 97, 97, 0.39) !important;
   height: 5em;
