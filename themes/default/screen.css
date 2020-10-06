@@ -533,7 +533,7 @@ svg.fa-facebook {
   margin-bottom: 0.7em;
 }
 #content .card.color {
-  max-width: 8em;
+  max-width: 11em;
 }
 #content .card.brief,
 #content .card.color {
@@ -1663,5 +1663,22 @@ body .definition--href {
 body .definition__close:hover {
   background: #EF5350;
   color: white;
+}
+/*********************************/
+.hdesc.manual + div + div.section .hideable {
+  padding: 0;
+}
+.hdesc.manual + div + div.section .hideable-switch {
+  width: 100%;
+  display: block;
+  padding: 1em;
+}
+.hdesc.manual + div + div.section .hideable dt[class=""],
+.hdesc.manual + div + div.section .hideable dd[class=""] {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.hdesc.manual + div + div.section .hideable dd:not(.class):last-child {
+  padding-bottom: 1em;
 }
 /*********************************/
