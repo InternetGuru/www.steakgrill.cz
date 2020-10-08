@@ -33,11 +33,11 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka, 7. října 2020</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka, 8. října 2020</var>
   <var var="cms-server" id="nabidka-popis">Každý všední den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n.*\d+ Kč){2}" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Dýňová polévka&#13;
-Podzimní krémová polévka z dýně Hokaido se smetanou a zázvorem, pražená dýňová semínka.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Česnečka&#13;
+S kořenovou zeleninou, brambory, vejcem a česnekem, chlebové krutony.&#13;
 malá 49 Kč&#13;
 velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka2"/>
@@ -48,12 +48,12 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Vepřový vrabec&#13;
 Pečené plátky vepřové krkovice, cibule, česnek, naše houskové a špekové knedlíky, krémový špenát, šťáva z výpeku.&#13;
 179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Smažený krůtí řízek&#13;
-V trojobalu dozlatova smažený plátek z krůtích prsou, mléčná bramborová kaše s oříškovým máslem, míchaný salát se zelenými olivami a balkánským sýrem.&#13;
-199 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Salmon angel hair&#13;
-Vlasové špagety, uzený losos, na nudličky krájená mrkev a cuketa, lesní houby, jarní cibulka, smetanová omáčka.&#13;
-199 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Vepřová pikantní směs&#13;
+Na nudličky krájená vepřová panenka, červená a zelená paprika, cibule, žampiony, pórek, naše bramboráčky.&#13;
+189 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Tortilla s hovězím pastrami&#13;
+Pšeničná placka plněná tence krájeným hovězím masem, sýrová salsa, ledový salát, rajčata, rukola, červená cibule, sýr gouda, hranolky, chipotle dip.&#13;
+219 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
