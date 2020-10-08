@@ -533,7 +533,14 @@ svg.fa-facebook {
   margin-bottom: 0.7em;
 }
 #content .card.color {
-  max-width: 11em;
+  max-width: 13em;
+}
+#content .card.color .hideable-nohide {
+  height: 10em;
+  overflow: hidden;
+}
+#content .card.color img {
+  border-radius: 0.25em 0.25em 0 0;
 }
 #content .card.brief,
 #content .card.color {
