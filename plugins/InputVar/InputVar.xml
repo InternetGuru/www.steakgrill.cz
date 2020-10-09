@@ -33,7 +33,7 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka, 8. října 2020</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka, 9. října 2020</var>
   <var var="cms-server" id="nabidka-popis">Každý všední den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n.*\d+ Kč){2}" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Česnečka&#13;
@@ -45,14 +45,14 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n(.+ )?\d{1,3} Kč){1,2}" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Vepřový vrabec&#13;
-Pečené plátky vepřové krkovice, cibule, česnek, naše houskové a špekové knedlíky, krémový špenát, šťáva z výpeku.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Pečená krůta na másle&#13;
+Pomalu pečená mladá krůta, šťouchané brambory se slaninou a pórkem, krémový špenát, nádivka s krůtími játry a slunečnicovými semínky, šťáva z výpeku.&#13;
+229 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Vepřová plec na houbách&#13;
+Dušená libová plec s cibulí a lesními houbami v delikátní smetanové omáčce, naše karlovarské knedlíky.&#13;
 179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Vepřová pikantní směs&#13;
-Na nudličky krájená vepřová panenka, červená a zelená paprika, cibule, žampiony, pórek, naše bramboráčky.&#13;
-189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Tortilla s hovězím pastrami&#13;
-Pšeničná placka plněná tence krájeným hovězím masem, sýrová salsa, ledový salát, rajčata, rukola, červená cibule, sýr gouda, hranolky, chipotle dip.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Drum Sticks&#13;
+Pomalu pečené vepřové lýtko s kořením, cibulí, česnekem a chilli, mléčná bramborová kaše s oříškovým máslem, smažená cibulka, kyselá okurka, přírodní šťáva.&#13;
 219 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
