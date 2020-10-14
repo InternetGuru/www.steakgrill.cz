@@ -435,6 +435,7 @@ svg.fa-facebook {
 #content > .hdesc .button {
   font-size: 1.1em;
   border: none !important;
+  height: 100%;
 }
 #content > .hdesc .button-print {
   display: flex;
