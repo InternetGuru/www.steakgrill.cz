@@ -33,7 +33,13 @@
       printNabidka = function (event) {
         var printWin = window.open('', 'PRINT', 'height=' + y + ',width=' + x);
 
-        printWin.document.write('<html><head><link href="//fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=latin-ext" rel="stylesheet"></head><body>');
+        printWin.document.write(`
+          <html>
+            <head>
+              <title>${document.querySelector(Config.parentSelector).id}</title>
+              <link href="//fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=latin-ext" rel="stylesheet">
+            </head>
+            <body>`);
 
         var wrap = document.createElement('div');
         var div1 = document.createElement('div');
