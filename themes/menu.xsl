@@ -112,6 +112,7 @@
   
   <!-- SPLIT -->
   <!-- desserts -->
+  <!--
   <xsl:template match="div[contains(@class, 'desserts')]">
     <div class="part content-group desserts-group">
       <div>
@@ -129,6 +130,7 @@
     </div>
   </xsl:template>
   <xsl:template match="div[contains(@class, 'desserts')]//dl[contains(@class, 'meal')][position() > 2]"/>
+  -->
   
   <!-- NAVIGATION -->
   <!-- beverages, wine_list, regular_menu -->
