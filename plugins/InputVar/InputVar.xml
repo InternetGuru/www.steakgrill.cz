@@ -103,9 +103,7 @@ Kuřecí prso naloženo v pikantní marinádě.&#13;
   
   <fn id="formathlavickaakce" fn="pregreplace" pattern="(.+)\n(.+)\n(.+)" replacement="&lt;a href='\2' class='button button-img'&gt;&lt;span class='\3'&gt;i&lt;/span&gt; \1&lt;/a&gt;"/>
   <set type="textarea" for="hlavicka-akce" pattern="[^\n]{4,30}\n\s*https?:\/\/[^\n]+\n\s*fa[sr] [a-z]{2}(-[a-z]{2,})+" placeholder="Velikonoční rožnění&#10;https://www.facebook.com/events/2265134597146002&#10;far fa-egg">Tlačítko FB akce (nepoužívat pro denní menu)</set>
-  <var var="cms-server" id="hlavicka-akce" fn="formathlavickaakce">JÍDLA S SEBOU&#13;
-https://mailchi.mp/0f1355e4bd75/steakgrill-nabdka-19343880&#13;
-fas fa-burger-soda</var>
+  <var var="cms-server" id="hlavicka-akce" fn="formathlavickaakce"/>
   
   
 <!--   <var id="lock">Administrace je uzamčená z důvodu údržby. Zkuste to později nebo kontaktujte administrátory webu.</var> -->
