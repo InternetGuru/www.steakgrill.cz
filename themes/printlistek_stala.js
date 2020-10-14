@@ -322,14 +322,6 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-h1:before {
-  content: "do 16 hod";
-  width: 100%;
-  order: 1;
-}
-h1:after {
-  order: 1;
 }`,
       parentSelector: '#stala_nabidka',
       printButtonText: 'Vytisknout denní nabídku (A3 na šířku)',
