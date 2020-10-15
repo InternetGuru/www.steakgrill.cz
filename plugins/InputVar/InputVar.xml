@@ -58,7 +58,7 @@ V trojobalu smažené dozlatova, bramborovo-hráškové pyré, zelný salát s �
 V delikátní smetanové omáčce, naše karlovarské knedlíky.&#13;
 159 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Pečené hovězí hrudí - STUDENÉ JÍDLO&#13;
-Vyzrálý hovězí brisket pečený v naší unikátní peci na bukovém dříví s kouřovým aroma, krájené na plátky, lahůdkové brambory s rozmarýnem, náš krémový špenát.&#13;
+Vyzrálý hovězí brisket pečený v naší unikátní peci na bukovém dříví s kouřovým aroma, krájené na plátky, lahůdkové brambory, krémový špenát.&#13;
 179 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n(.+ )?\d{1,3} Kč){1,2}" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
