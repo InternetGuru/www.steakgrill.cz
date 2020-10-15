@@ -54,8 +54,12 @@ Pšeničná placka, grilovaná kuřecí prsa, ledový salát, rajčata, jarní c
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Smažené nugety z lososa&#13;
 V trojobalu smažené dozlatova, bramborovo-hráškové pyré, zelný salát s žampiony, mrkví a paprikou, citrón.&#13;
 189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4"/>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Vepřová plec na houbách - STUDENÉ JÍDLO&#13;
+V delikátní smetanové omáčce, naše karlovarské knedlíky.&#13;
+159 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Pečené hovězí hrudí - STUDENÉ JÍDLO&#13;
+Vyzrálý hovězí brisket pečený v naší unikátní peci na bukovém dříví s kouřovým aroma, krájené na plátky, lahůdkové brambory s rozmarýnem, náš krémový špenát.&#13;
+179 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n(.+ )?\d{1,3} Kč){1,2}" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1"/>
@@ -63,9 +67,7 @@ V trojobalu smažené dozlatova, bramborovo-hráškové pyré, zelný salát s �
   <set type="textarea" for="nabidka-pecivo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n(.+ )?\d{1,3} Kč){1,2}" placeholder="Škvarková placka naší Aničky&#10;Mouka, vepřové škvarky, kmín a sůl.&#10;35 Kč">Denní nabídka – pečivo</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-pecivo1"/>
   <set type="textarea" for="nabidka-pivo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*(\n\d,\d l \d+ Kč)+" placeholder="Benedict ležák 12°&#10;Klasická světlá dvanáctka z Břevnovského klášterního pivovaru. Vyrobena tradičním způsobem. Vyznačuje se plností a silnou chutí s jemnou hořkostí.&#10;0,3 l 32 Kč&#10;0,5 l 47 Kč">Denní nabídka – pivo</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-pivo1">Libertas American Pale Ale 11°&#13;
-Svrchně kvašené pivo zlatavé barvy, vyvážená sladová chuť s tóny karamelu, doplněná citrusovou chmelovou hořkostí. Intenzivní chmelové aroma pocházející z amerických chmelů.&#13;
-0,5 l 30 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-pivo1"/>
 
 
   
@@ -97,7 +99,7 @@ Kuřecí prso naloženo v pikantní marinádě.&#13;
 49 Kč</var>  
   
   <set type="textarea" for="upozorneni" pattern=".{0,150}" placeholder="Dne 22. ledna 2019 bude restaurace z technických důvodů uzavřena. Děkujeme za pochopení.">Upozornění</set>
-  <var var="cms-server" id="upozorneni">14.10. máme pro vás připravenou denní nabídku jídel s sebou a rozvozy. Více informací na www.facebook.com/Steakgrill/</var>
+  <var var="cms-server" id="upozorneni">15.10. máme pro vás připravenou denní nabídku jídel s sebou a rozvozy. Více informací na www.facebook.com/Steakgrill/</var>
   
   
   <fn id="formathlavickaakce" fn="pregreplace" pattern="(.+)\n(.+)\n(.+)" replacement="&lt;a href='\2' class='button button-img'&gt;&lt;span class='\3'&gt;i&lt;/span&gt; \1&lt;/a&gt;"/>
