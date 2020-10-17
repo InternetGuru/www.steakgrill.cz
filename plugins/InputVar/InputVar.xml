@@ -99,7 +99,7 @@ Kuřecí prso naloženo v pikantní marinádě.&#13;
 49 Kč</var>  
   
   <set type="textarea" for="upozorneni" pattern=".{0,150}" placeholder="Dne 22. ledna 2019 bude restaurace z technických důvodů uzavřena. Děkujeme za pochopení.">Upozornění</set>
-  <var var="cms-server" id="upozorneni">16.10. máme pro vás připravenou denní nabídku jídel s sebou a rozvozy. Více informací na www.facebook.com/Steakgrill/</var>
+  <var var="cms-server" id="upozorneni">17.10. máme pro vás připravenou denní nabídku jídel s sebou a rozvozy. Více informací na www.facebook.com/Steakgrill/</var>
   
   
   <fn id="formathlavickaakce" fn="pregreplace" pattern="(.+)\n(.+)\n(.+)" replacement="&lt;a href='\2' class='button button-img'&gt;&lt;span class='\3'&gt;i&lt;/span&gt; \1&lt;/a&gt;"/>
