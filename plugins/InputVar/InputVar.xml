@@ -45,21 +45,21 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n(.+ )?\d{1,3} Kč){1,2}" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Segedínský guláš&#13;
-Libová vepřová krkovice ve smetanové omáčce s kysaným zelím a červenou paprikou, naše houskové knedlíky.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Tatarský steak ze svíčkové, 150 g&#13;
+Námi míchaný 150 g tataráček s topinkami a česnekem.&#13;
+259 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Dančí Burger&#13;
+Mleté dančí a vepřové maso, zkaramelizovaná cibule, ledový salát, rajče, čedar, slanina, hořčicový dip, hranolky, Coleslaw.&#13;
+229 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Smažená vinná klobása&#13;
+Od našeho řezníka pana Durčeka, obalená v trojobalu a usmažena dozlatova, náš bramborový salát.&#13;
 169 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Rožněná vepřová kýta&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Rožněná vepřová kýta&#13;
 Na bukovém dřevě s kouřovým aroma, lahůdkové brambory, cibulový salát, křenová hořčice, přírodní šťáva.&#13;
 189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Smažené nugety z lososa&#13;
-V trojobalu smažené dozlatova, bramborovo-hráškové pyré, míchaný salát s balkánským sýrem a zelenými olivami, citrón.&#13;
-189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Vepřová plec na houbách - STUDENÉ JÍDLO&#13;
-V delikátní smetanové omáčce, naše karlovarské knedlíky.&#13;
-159 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Pečené hovězí hrudí - STUDENÉ JÍDLO&#13;
-Vyzrálý hovězí brisket pečený v naší unikátní peci na bukovém dřevě s kouřovým aroma, krájené na plátky, lahůdkové brambory, krémový špenát.&#13;
-179 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Segedínský guláš - STUDENÉ JÍDLO&#13;
+Libová vepřová krkovice ve smetanové omáčce s kysaným zelím a červenou paprikou, naše houskové knedlíky.&#13;
+169 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n(.+ )?\d{1,3} Kč){1,2}" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1"/>
