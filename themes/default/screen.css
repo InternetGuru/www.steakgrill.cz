@@ -601,6 +601,13 @@ svg.fa-facebook {
 .part.about_us .description:after {
   background-image: url("/files/design/sep-white.png");
 }
+.part.hamburgers_and_pasta .definition,
+.part.kids_menu .definition,
+.part.grill_griddle .definition,
+.part.contact .definition,
+.part.about_us .definition {
+  border-color: rgb(255 255 255 / 50%) !important;
+}
 .part.about_us {
   background: #555 url("/files/design/about.jpg") top right no-repeat;
   color: white;
