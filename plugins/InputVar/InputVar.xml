@@ -45,21 +45,19 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n(.+ )?\d{1,3} Kč){1,2}" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Pečená krkovice&#13;
-Pomalu pečená v naší unikátní peci na dřevě s kouřovým aromatem, naše bramborové knedlíky, krémový špenát, smažená cibulka, přírodní šťáva.&#13;
-169 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Roastbeef&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Roastbeef&#13;
 Suchým zráním  vyzrálý brazilský nízký roštěnec, pečený při nízké teplotě dorůžova, vařené lahůdkové brambory s petrželkou, naše tatarská omáčka.&#13;
 219 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Geschnetzeltes&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Geschnetzeltes&#13;
 Švýcarská specialita, na nudličky krájená vepřová panenka v delikátní omáčce s bílým vínem a žampiony, bramborové rösti.&#13;
 189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Španělský ptáček&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Španělský ptáček&#13;
 Plátky uruguayské hovězí kýty plněné slaninou, cibulí, okurkou, vajíčkem a salámem, jasmínová rýže.&#13;
 189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Dančí guláš - STUDENÉ JÍDLO&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Dančí guláš - STUDENÉ JÍDLO&#13;
 Dušené dančí maso s cibulí, paprikou a česnekem, naše špecle.&#13;
 159 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n(.+ )?\d{1,3} Kč){1,2}" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1"/>
