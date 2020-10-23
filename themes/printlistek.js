@@ -22,7 +22,8 @@
         printButtonText: "Print",
         childrenSelector: [],
         allChildren: false,
-        copies: 16
+        copies: 16,
+        printToPng: false,
       },
       w = window,
       d = document,
@@ -32,12 +33,13 @@
       y = w.innerHeight|| e.clientHeight|| g.clientHeight,
       printNabidka = function (event) {
         var printWin = window.open('', 'PRINT', 'height=' + y + ',width=' + x);
-
+        var id = document.querySelector(Config.parentSelector).id
         printWin.document.write(`
           <html>
             <head>
-              <title>${document.querySelector(Config.parentSelector).id}</title>
+              <title>${id}</title>
               <link href="//fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=latin-ext" rel="stylesheet">
+              <script type="text/javascript" src="/themes/lib/dom-to-image.min.js"></script>
             </head>
             <body>`);
 
@@ -73,7 +75,40 @@
 
         printWin.document.close(); // necessary for IE >= 10
         printWin.focus(); // necessary for IE >= 10*/
-
+        
+        if (Config.printToPng) {
+          var script = printWin.document.createElement("script")
+          script.innerHTML = `
+          function docReady (fn) {
+            // see if DOM is already available
+            if (document.readyState === "complete" || document.readyState === "interactive") {
+              // call on next available tick
+              setTimeout(fn, 1);
+            } else {
+              document.addEventListener("DOMContentLoaded", fn);
+            }
+          }
+          var scale = 2.5
+          docReady(() => { setTimeout(() => { 
+            domtoimage.toPng(document.body.firstElementChild, {
+              width: document.body.firstElementChild.clientWidth * scale,
+              height: document.body.firstElementChild.clientHeight * scale,
+              style: {
+                'transform': 'scale(' + scale + ')',
+                'transform-origin': 'top left',
+              }
+            })
+            .then(function (dataUrl) {
+              var link = document.createElement('a');
+              link.download = "${id}";
+              link.href = dataUrl;
+              link.click();
+            });
+          }, 250) })
+          `
+          printWin.document.head.appendChild(script)
+          return true;
+        }
 
         printWin.setTimeout(function () {
           printWin.print();
@@ -267,8 +302,10 @@ body > div > div > * {
 }
 h1 {
   padding-top: 2em;
-  max-width: 10em;
-  left: -2.5em;
+  max-width: 24.5rem;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 .meal {
   padding-bottom: 0.5em;
@@ -279,17 +316,52 @@ h1 {
     printable.init({
       styles: styles + styles2,
       parentSelector: '#denni_nabidka, #daily_offer',
-      printButtonText: 'Vytisknout denní nabídku (4×A5)',
+      printButtonText: 'Tisk 4 × A5',
       childrenSelector: [".daily_offer dl.meal"],
       allChildren: true,
       copies: 4
+    })
+    var printable = new Printable()
+    printable.init({
+      styles: styles + styles2 + `
+      body {
+        width: 110mm;
+        height: 209mm;
+      }
+      body > div {
+        background: white;
+        background-size: contain;
+        width: 100%;
+        height: 100%;
+      }
+      div > div:before,
+      div > div:after {
+        display: none;
+      }
+      div > div {
+        background: none;
+      }
+      body > div:after {
+        display: none;
+      }
+      h1 {
+        padding-top: 1em;
+      }
+      `,
+      parentSelector: '#denni_nabidka, #daily_offer',
+      printButtonText: 'Export',
+      childrenSelector: [".daily_offer dl.meal"],
+      allChildren: true,
+      copies: 1,
+      printToPng: true,
+      printButtonClass: "noprint fas fa-file-image",
     })
     
     var printable2 = new Printable()
     printable2.init({
       styles: styles,
       parentSelector: '#special',
-      printButtonText: 'Vytisknout víkendovou nabídku (A6 na výšku)',
+      printButtonText: 'Tisk A6 na výšku',
       childrenSelector: [".special dl.meal[data-type='Starter']", ".special dl.meal[data-type='Main meal']"],
       allChildren: true,
       copies: 4

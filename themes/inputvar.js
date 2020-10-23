@@ -69,13 +69,13 @@
     resultDate.setDate(date.getDate() + (7 + day - date.getDay()) % 7)
     return resultDate
   }
-  function getButton (text, target, onclickText) {
+  function getButton (text, target, onclickText, replaceFn) {
     var button = document.createElement("button")
     button.type = "button"
     button.className = "button"
     button.innerHTML = text
     button.addEventListener("click", function () {
-      target.value = onclickText
+      target.value = replaceFn ? replaceFn(target.value, onclickText) : onclickText
     }, false)
     return button
   }
@@ -87,11 +87,12 @@
   var nabidka = document.getElementById("inputvar-nabidka")
   var nabidkadd = nabidka.parentNode
   var date = new Date()
-  var date1Buttton = getButton("Dnes", nabidka, "Denní nabídka, " + getCzechDate(date))
+  var replaceFn = (text, date) => text.replace(/\d+\. .*$/, date)
+  var date1Buttton = getButton("Dnes", nabidka, getCzechDate(date), replaceFn)
   date.setDate(date.getDate() + 1)
-  var date2Buttton = getButton("Zítra", nabidka, "Denní nabídka, " + getCzechDate(date))
+  var date2Buttton = getButton("Zítra", nabidka, getCzechDate(date), replaceFn)
   date.setDate(date.getDate() + 1)
-  var date3Buttton = getButton("Pozítří", nabidka, "Denní nabídka, " + getCzechDate(date))
+  var date3Buttton = getButton("Pozítří", nabidka, getCzechDate(date), replaceFn)
   nabidkadd.appendChild(date1Buttton)
   nabidkadd.appendChild(date2Buttton)
   nabidkadd.appendChild(date3Buttton)
