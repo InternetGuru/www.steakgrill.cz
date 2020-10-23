@@ -49,6 +49,14 @@
       <xsl:apply-templates select="node()|@*"/>
     </xsl:copy>
   </xsl:template>
+  <!-- fastfood -->
+  <!-- regular_menu_covid -->
+  <xsl:template match="div[contains(@class, 'part fastfood') or contains(@class, 'part regular_menu_covid')]/div">
+    <xsl:copy>
+      <xsl:attribute name="data-visibility">/nabidka</xsl:attribute>
+      <xsl:apply-templates select="node()|@*"/>
+    </xsl:copy>
+  </xsl:template>
   <!-- beer -->
   <xsl:template match="div[contains(@class, 'beer')]/div">
     <xsl:copy>
@@ -112,7 +120,6 @@
   
   <!-- SPLIT -->
   <!-- desserts -->
-  <!--
   <xsl:template match="div[contains(@class, 'desserts')]">
     <div class="part content-group desserts-group">
       <div>
@@ -130,7 +137,6 @@
     </div>
   </xsl:template>
   <xsl:template match="div[contains(@class, 'desserts')]//dl[contains(@class, 'meal')][position() > 2]"/>
-  -->
   
   <!-- NAVIGATION -->
   <!-- beverages, wine_list, regular_menu -->
@@ -152,6 +158,16 @@
         <li><a class="nowarning button button-img" href="/napojovy_listek"><span class="fas fa-3x fa-wine-glass-alt">i</span>Nápojový lístek</a></li>
         <li><a class="nowarning button button-img" href="/vinny_listek"><span class="fas fa-3x fa-mug-hot">i</span>Vinný lístek</a></li>
       </ul>
+      <!-- br -->
+      <div class="overlay"><div>
+        <p>Tato nabídka je z důvodu omezení provozu restaurace momentálně pozastavená.</p>
+        <ul class="button-list">
+          <li><a class="button button-img" href="/#denni_nabidka"><span class="fas fa-3x fa-utensils">i</span>Denní nabídka<br/>COVID</a></li>
+          <li><a class="button button-img" href="/fastfood"><span class="fas fa-3x fa-burger-soda">i</span>Fast Food<br/>COVID</a></li>
+          <li><a class="button button-img" href="/stala_nabidka_covid"><span class="fas fa-3x fa-clipboard-list">i</span>Stálá nabídka<br/>COVID</a></li>
+        </ul>
+        <p class="overlay__close"><a onclick=" this.parentNode.parentNode.parentNode.parentNode.classList.add('hideAfter'); this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode)">Zobrazit pozastavenou nabídku</a></p>
+      </div></div>
     </xsl:copy>
   </xsl:template>
   

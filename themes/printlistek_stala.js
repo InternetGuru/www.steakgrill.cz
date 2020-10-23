@@ -322,6 +322,14 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+h1:before {
+  content: "do 16 hod";
+  width: 100%;
+  order: 1;
+}
+h1:after {
+  order: 1;
 }`,
       parentSelector: '#stala_nabidka',
       printButtonText: 'Vytisknout denní nabídku (A3 na šířku)',
@@ -370,6 +378,49 @@ h1:after {
       printButtonText: 'Vytisknout vinný lístek (A3 na šířku)',
       //childrenSelector: ["h2, h2 + p, .meal:not(.evening)", ".regular_menu.hdesc > *"],
       childrenSelector: ["h2, h2 + p, .meal:not(.evening)", "", "", "h1"],
+      copies: 1
+    })
+
+var styles_3 = `
+body {
+  margin: 12mm 0;
+}
+body > div > div {
+  display: block;
+}
+h1:after {
+  display: none;
+}
+.group {
+  display: block;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0 auto;
+  flex: 0 1 100%;
+  max-width: 37em;
+}
+.break {
+  page-break-before: always;
+  margin-top: 12mm;
+}
+`
+    var printable = new Printable()
+    printable.init({
+      styles: styles + styles_3,
+      parentSelector: '#stala_nabidka_covid',
+      printButtonText: 'Vytisknout stálou nabídku COVID (A4 na výšku)',
+      //childrenSelector: ["h2, h2 + p, .meal:not(.evening)", ".regular_menu.hdesc > *"],
+      childrenSelector: ["h1", "h2, .meal"],
+      copies: 1
+    })
+    var printable = new Printable()
+    printable.init({
+      styles: styles + styles_3,
+      parentSelector: '#fastfood',
+      printButtonText: 'Vytisknout Fast Food COVID (A5 na výšku)',
+      //childrenSelector: ["h2, h2 + p, .meal:not(.evening)", ".regular_menu.hdesc > *"],
+      childrenSelector: ["h1", "h2, .meal"],
       copies: 1
     })
   });
