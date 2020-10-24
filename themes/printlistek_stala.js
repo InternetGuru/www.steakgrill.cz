@@ -23,6 +23,7 @@
         childrenSelector: [],
         copies: 16,
         pageBreak: "page-break",
+        separateLast: true,
       },
       w = window,
       d = document,
@@ -62,7 +63,7 @@
         var groupElm = document.createElement("div")
         groupElm.className = "group"
         children.forEach((item, idx, array) => {
-          if (item.classList.contains(Config.pageBreak) || idx === array.length - 1) {
+          if (item.classList.contains(Config.pageBreak) || (Config.separateLast && idx === array.length - 1)) {
             div2.appendChild(groupElm)
             groupElm = document.createElement("div")
             groupElm.className = "group"
@@ -219,23 +220,28 @@ h1 svg {
 .meal dt.price {
   display: none;
 }
-.meal dd.price {
-  font-style: normal;
-  display: flex;
-  justify-content: flex-end;
-  font-weight: 700;
-  margin-top: 0.5em;
+dl.meal dd.price {
+  font-weight: 600;
+  margin-top: 0.2em;
+  font-size: 12pt;
   text-align: right;
-}
-.meal dd.price > span {
-  display: flex;
-  flex-direction: column;
-}
-.meal dd.price > span:not(:last-child) {
-  margin-right: 1em;
+  font-style: normal;
 }
 .meal dd.price > span > span:first-child {
   font-weight: normal;
+  margin-right: 0.3rem;
+}
+.meal dd.price > span + span:before {
+  content: ",";
+  margin-right: 0.5em;
+}
+dl.meal dd.price > span > span:first-child {
+  text-align: right;
+  font-weight: normal;
+  font-size: 10pt;
+}
+dl.meal dd.price > span > span + span {
+  font-weight: 600;
 }
 .meal-oneline dt {
   width: 79%;
@@ -383,45 +389,71 @@ h1:after {
 
 var styles_3 = `
 body {
-  margin: 12mm 0;
+  margin: 0;
+  font-size: 9pt;
 }
-body > div > div {
-  display: block;
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+h2 {
+  font-size: 1.5em;
+  margin-top: 0.25em;
 }
 h1:after {
   display: none;
 }
 .group {
-  display: block;
-  width: auto;
-  height: auto;
-  padding: 0;
-  margin: 0 auto;
-  flex: 0 1 100%;
-  max-width: 37em;
+  padding: 6mm 5mm;
 }
-.break {
+.group > *:first-child {
+  top: 0;
+}
+dl.break {
   page-break-before: always;
-  margin-top: 12mm;
+  margin-top: 6mm;
+}
+dl.meal {
+  margin: 0;
+}
+dl.meal dd.price {
+  font-size: 1.2em;
+}
+body > div > div > * {
+  flex: 0 1 50%;
+  max-width: 50%;
+}
+.group:nth-child(2):after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60em;
+  height: 55em;
+  background: url("/files/piktogram_bile-pozadi.jpg") no-repeat;
+  background-position: right bottom;
+  background-size: cover;
 }
 `
     var printable = new Printable()
     printable.init({
       styles: styles + styles_3,
       parentSelector: '#stala_nabidka_covid',
-      printButtonText: 'Vytisknout stálou nabídku COVID (A4 na výšku)',
+      printButtonText: 'Tisk (A4 na šířku)',
       //childrenSelector: ["h2, h2 + p, .meal:not(.evening)", ".regular_menu.hdesc > *"],
       childrenSelector: ["h1", "h2, .meal"],
-      copies: 1
+      copies: 1,
+      separateLast: false,
     })
     var printable = new Printable()
     printable.init({
       styles: styles + styles_3,
       parentSelector: '#fastfood',
-      printButtonText: 'Vytisknout Fast Food COVID (A5 na výšku)',
+      printButtonText: 'Tisk (A4 na šířku)',
       //childrenSelector: ["h2, h2 + p, .meal:not(.evening)", ".regular_menu.hdesc > *"],
       childrenSelector: ["h1", "h2, .meal"],
-      copies: 1
+      copies: 1,
+      separateLast: false,
     })
   });
   

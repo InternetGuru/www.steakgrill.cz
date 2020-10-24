@@ -241,21 +241,20 @@ dl.meal dt {
   margin-bottom: 0.3em;
 }
 dl.meal dd.price {
-  display: flex;
-  /* margin-left: auto; */
-  justify-content: flex-end;
   font-weight: 600;
   margin-top: 0.2em;
   font-size: 12pt;
+  text-align: right;
 }
-dl.meal dd.price > span {
-  margin: 0 0.75em;
+.meal dd.price > span > span:first-child {
+  font-weight: normal;
+  margin-right: 0.3rem;
 }
-dl.meal dd.price > span:last-child {
-  margin-right: 0;
+.meal dd.price > span + span:before {
+  content: ",";
+  margin-right: 0.5em;
 }
 dl.meal dd.price > span > span:first-child {
-  display: block;
   text-align: right;
   font-weight: normal;
   font-size: 10pt;

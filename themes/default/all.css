@@ -46,14 +46,16 @@ h2.break {
   text-align: right;
 }
 .meal dd.price > span {
-  display: flex;
-  flex-direction: column;
 }
 .meal dd.price > span:not(:last-child) {
-  margin-right: 1em;
 }
 .meal dd.price > span > span:first-child {
   font-weight: normal;
+  margin-right: 0.3rem;
+}
+.meal dd.price > span + span:before {
+  content: ",";
+  margin-right: 0.5em;
 }
 #content .meal-oneline dt {
   width: 79%;

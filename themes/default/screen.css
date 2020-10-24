@@ -438,6 +438,10 @@ svg.fa-facebook {
   padding: 0.9em 1.5em;
   text-align: left;
 }
+#content .button-print {
+  text-align: left;
+  justify-content: left;
+}
 .button--inactive svg {
   color: #9E9E9E;
 }
