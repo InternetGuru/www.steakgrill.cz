@@ -33,11 +33,12 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka( COVID)?, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka COVID, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka, 25. října 2020</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka, 26. října 2020</var>
   <var var="cms-server" id="nabidka-popis">Každý všední den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Dýňová polévka&#13;
-Podzimní krémová polévka z dýně hokaido se smetanou a zázvorem, posypaná dýňovými semínky a zakápnutá naším dýňovým olejem.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Dršťková polévka&#13;
+Taková, jaká má být, plná hovězích drštěk.&#13;
+malá 49 Kč&#13;
 velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka2"/>
   <set type="textarea" for="nabidka-predkrm\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Tatarský steak ze svíčkové, 50 g&#10;Námi míchaný 50g tataráček s topinkami a česnekem.&#10;129 Kč">Denní nabídka – předkrmy</set>
@@ -50,15 +51,11 @@ Marinovaná vepřová panenka grilovaná na špízu s cibulí a paprikou, zakon�
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Maďarský vepřový guláš&#13;
 Na kousky krájená vepřová plec dušená s cibulí, paprikou a česnekem, naše špecle, červená cibulka.&#13;
 169 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Pečená krůta&#13;
-Plátky krůtích prsou, pečené v naší unikátní peci s kouřovým aroma, mléčná bramborová kaše, brokolice, štáva.&#13;
-189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Tatarský steak ze svíčkové, 150 g&#13;
-Námi míchaný 150g tataráček s topinkami, česnekem a kapary.&#13;
-259 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Náš hovězí guláš STUDENÉ&#13;
-Dušené vyzrálé brazilské maso s cibulí a červenou paprikou, náš houskový knedlík.&#13;
-169 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Grilled filet mignon&#13;
+Grilovaný steak z pravé svíčkové, houbová omáčka, pečené rozmarýnové brambory, krémový špenát.&#13;
+219 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4"/>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1"/>
