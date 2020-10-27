@@ -49,6 +49,7 @@
   text-align: center;
   letter-spacing: 0.02em;
   background: none;
+  padding-left: 2em !important;
 }
 #header div.hideable-button span:last-child {
   display: none;
@@ -1188,7 +1189,11 @@ p.desc {
 }
 .part.contact_form {
   position: relative;
-  color: white;
+  color: aliceblue;
+}
+.part.contact_form form input,
+.part.contact_form form textarea {
+  color: black;
 }
 .part.contact_form:after {
   content: "";
@@ -1747,5 +1752,32 @@ body[data-link="/stala_nabidka"] .section .overlay p {
   color: white !important;
   cursor: pointer;
   border-bottom: thin solid rgba(255,255,255,0.5) !important;
+}
+/*********************************/
+.globalmenu__item .globalmenu__item--current {
+  position: relative;
+}
+.globalmenu__item .globalmenu__item--current:before,
+#footer .globalmenu__item a:before {
+  content: "•";
+  position: absolute;
+  left: 0.75rem;
+  font-size: 1.7rem;
+  top: 0.6rem;
+}
+#footer .globalmenu a {
+  border-bottom: none;
+  text-transform: uppercase;
+}
+#footer .globalmenu__item a:before {
+  position: static;
+  line-height: 0;
+  vertical-align: -0.2em;
+  margin-right: 0.2em;
+  visibility: hidden;
+}
+#footer .globalmenu__item .globalmenu__item--current:before {
+  visibility: visible;
+  vertical-align: -0.15em;
 }
 /*********************************/
