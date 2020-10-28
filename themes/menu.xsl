@@ -155,8 +155,8 @@
       <xsl:apply-templates select="node()|@*"/>
       <ul class="button-list">
         <li><a class="nowarning button button-img" href="/stala_nabidka"><span class="fas fa-3x fa-clipboard-list">i</span>Stálá nabídka jídel</a></li>
-        <li><a class="nowarning button button-img" href="/napojovy_listek"><span class="fas fa-3x fa-wine-glass-alt">i</span>Nápojový lístek</a></li>
-        <li><a class="nowarning button button-img" href="/vinny_listek"><span class="fas fa-3x fa-mug-hot">i</span>Vinný lístek</a></li>
+        <li><a class="nowarning button button-img" href="/napojovy_listek"><span class="fas fa-3x fa-glass-citrus">i</span>Nápojový lístek</a></li>
+        <li><a class="nowarning button button-img" href="/vinny_listek"><span class="fas fa-3x fa-wine-glass-alt">i</span>Vinný lístek</a></li>
       </ul>
       <!-- br -->
       <div class="overlay"><div>
