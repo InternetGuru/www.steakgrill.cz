@@ -106,7 +106,7 @@ Kuřecí prso naloženo v pikantní marinádě.&#13;
   
 <!--   <var id="lock">Administrace je uzamčená z důvodu údržby. Zkuste to později nebo kontaktujte administrátory webu.</var> -->
 
-  <message to=" honzajk@steakgrill.cz lisec.tom@seznam.cz pavel.petrzela@internetguru.cz jiri.pavelka@internetguru.cz pavlina.militka@gmail.com lukasbula41@gmail.com denisa.volakova96@seznam.cz madmann@seznam.cz vithavlu@gmail.com" subject="Administrace jídel $cms-url">Dobrý den,
+  <message to=" honzajk@steakgrill.cz lisec.tom@seznam.cz pavel.petrzela@internetguru.cz jiri.pavelka@internetguru.cz pavlina.militka@gmail.com lukasbula41@gmail.com denisa.volakova96@seznam.cz madmann@seznam.cz vithavlu@gmail.com" subject="Administrace jídel $cms-host">Dobrý den,
 na webu $cms-url právě došlo k uživatelské úpravě dat.
 
 – Uživatel: $user
