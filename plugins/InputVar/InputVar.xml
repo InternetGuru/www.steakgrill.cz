@@ -76,24 +76,22 @@ Hořká dvanáctka pětkrát chmelená žateckým poloraným červeňákem.&#13;
 <!--   <var var="cms-server" fn="formatjidlo" id="special-predkrm2"/> -->
 <!--   <var var="cms-server" fn="formatjidlo" id="special-predkrm3"/> -->
   <set type="textarea" for="special-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Tatarský steak ze svíčkové, 150 g&#10;Námi míchaný 150g tataráček s topinkami a česnekem.&#10;289 Kč">Speciální nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="special-jidlo1" required="required">Strip steak, 200 g&#13;
-Nízký vyzrálý uruguayský roštěnec (Grain-Fed dokrmovaný obilím) v úpravě New York au Poivre s barevným pepřem.&#13;
-239 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="special-jidlo2">Pork chop, 300 g&#13;
+  <var var="cms-server" fn="formatjidlo" id="special-jidlo1" required="required">Pork chop, 300 g&#13;
 Vepřová kotleta s kostí a částí bůčku naložena v bylinkové marinádě.&#13;
 119 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="special-jidlo3">Vepřová panenka, 200 g&#13;
+  <var var="cms-server" fn="formatjidlo" id="special-jidlo2">Vepřová panenka, 200 g&#13;
 Libová a křehká část vepřového masa marinovaná s kořením argentina a olivovým olejem.&#13;
 79 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="special-jidlo4">Vepřová krkovice, 200 g&#13;
+  <var var="cms-server" fn="formatjidlo" id="special-jidlo3">Vepřová krkovice, 200 g&#13;
 Šťavnatá část vepřového masa naložena v pikantní marinádě.&#13;
 59 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="special-jidlo5">Kachní prso (sous-vide), 170 g&#13;
+  <var var="cms-server" fn="formatjidlo" id="special-jidlo4">Kachní prso (sous-vide), 170 g&#13;
 Kachní prso s kůží marinované s barevným pepřem a rozmarýnovým olejem.&#13;
 55 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="special-jidlo6">Kuřecí steak, 170 g&#13;
+  <var var="cms-server" fn="formatjidlo" id="special-jidlo5">Kuřecí steak, 170 g&#13;
 Kuřecí prso naloženo v pikantní marinádě.&#13;
-49 Kč</var>  
+49 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="special-jidlo6"/>  
   
   <set type="textarea" for="upozorneni" pattern=".{0,150}" placeholder="Dne 22. ledna 2019 bude restaurace z technických důvodů uzavřena. Děkujeme za pochopení.">Upozornění</set>
   <var var="cms-server" id="upozorneni">Z důvodu omezení provozu jsme otevřeli výdejní okénko a zavedli rozvoz jídel. Sledujte aktuální nabídku COVID.</var>
