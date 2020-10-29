@@ -45,7 +45,7 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Moravský vrabec&#13;
-Naše bramborové knedlíky, krémový špenát, smažená cibulka.&#13;
+Na kostky krájená vepřová krkovice, cibule, česnek, kmín, naše bramborové knedlíky, šťáva z výpeku, krémový špenát, smažená cibulka.&#13;
 179 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Smažený krůtí řízek&#13;
 Krůtí prsa obalená v trojobalu, dozlatova usmažená, lahůdkové brambory s máslem a petrželkou, míchaný salát s Caesar dresinkem.&#13;
