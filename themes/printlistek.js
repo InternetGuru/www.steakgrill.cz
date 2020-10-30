@@ -301,13 +301,14 @@ body > div > div > * {
 }
 h1 {
   padding-top: 2em;
-  max-width: 24.5rem;
+  max-width: 30.5rem;
   left: 0;
   margin-left: auto;
   margin-right: auto;
 }
 .meal {
   padding-bottom: 0.5em;
+  max-width: 35.5em !important;
 }
 `
  
@@ -360,12 +361,22 @@ h1 {
     printable2.init({
       styles: styles,
       parentSelector: '#special',
-      printButtonText: 'Tisk A6 na výšku',
+      printButtonText: 'Tisk 4 × A6',
       childrenSelector: [".special dl.meal[data-type='Starter']", ".special dl.meal[data-type='Main meal']"],
       allChildren: true,
       copies: 4
     })
-    
+
+    var printable = new Printable()
+    printable.init({
+      styles: styles + styles2,
+      parentSelector: '#special',
+      printButtonText: 'Tisk 4 × A5',
+      childrenSelector: [".daily_offer dl.meal"],
+      allChildren: true,
+      copies: 4
+    })
+
     var printable3 = new Printable()
     printable3.init({
       styles: styles + "body > div { width: 33vw; height: 20vh; } img { display: none; } dl.meal dt + dd { font-style: normal !important; font-weight: 600; font-size: 12pt; margin-bottom: 0.3em; } }",
