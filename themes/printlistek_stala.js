@@ -49,6 +49,10 @@
         div1.appendChild(div2);
         let children = [];
         for (var i = 0; i < Config.childrenSelector.length; i++) {
+          if (Config.childrenSelector[i].nodeType == 1) {
+            children.push(Config.childrenSelector[i])
+            continue
+          }
           if (!Config.childrenSelector[i]) {
             var span = document.createElement("span")
             span.className = Config.pageBreak
@@ -337,7 +341,7 @@ h1:before {
 h1:after {
   order: 1;
 }`,
-      parentSelector: '#stala_nabidka',
+      parentSelector: 'h1#stala_nabidka',
       printButtonText: 'Vytisknout denní nabídku (A3 na šířku)',
       //childrenSelector: ["h2, h2 + p, .meal:not(.evening)", ".regular_menu.hdesc > *"],
       childrenSelector: ["h2, h2 + p, .meal:not(.evening)", "h1"],
@@ -371,7 +375,7 @@ h1:after {
     var printable = new Printable()
     printable.init({
       styles: styles + styles_2,
-      parentSelector: '#napojovy_listek',
+      parentSelector: 'h1#napojovy_listek',
       printButtonText: 'Vytisknout nápojový lístek (A3 na šířku)',
       //childrenSelector: ["h2, h2 + p, .meal:not(.evening)", ".regular_menu.hdesc > *"],
       childrenSelector: ["h2, h2 + p, .meal:not(.evening)", "", "", "h1"],
@@ -380,7 +384,7 @@ h1:after {
     var printable = new Printable()
     printable.init({
       styles: styles + styles_2,
-      parentSelector: '#vinny_listek',
+      parentSelector: 'h1#vinny_listek',
       printButtonText: 'Vytisknout vinný lístek (A3 na šířku)',
       //childrenSelector: ["h2, h2 + p, .meal:not(.evening)", ".regular_menu.hdesc > *"],
       childrenSelector: ["h2, h2 + p, .meal:not(.evening)", "", "", "h1"],
@@ -438,7 +442,7 @@ body > div > div > * {
     var printable = new Printable()
     printable.init({
       styles: styles + styles_3,
-      parentSelector: '#stala_nabidka_covid',
+      parentSelector: 'h1#stala_nabidka_covid',
       printButtonText: 'Tisk (A4 na šířku)',
       //childrenSelector: ["h2, h2 + p, .meal:not(.evening)", ".regular_menu.hdesc > *"],
       childrenSelector: ["h1", "h2, .meal"],
@@ -448,13 +452,43 @@ body > div > div > * {
     var printable = new Printable()
     printable.init({
       styles: styles + styles_3,
-      parentSelector: '#fastfood',
+      parentSelector: 'h1#fastfood',
       printButtonText: 'Tisk (A4 na šířku)',
       //childrenSelector: ["h2, h2 + p, .meal:not(.evening)", ".regular_menu.hdesc > *"],
       childrenSelector: ["h1", "h2, .meal"],
       copies: 1,
       separateLast: false,
     })
+    
+    var p = document.createElement("h2")
+    p.className = "call"
+    p.innerHTML = "Objednávky na čísle +420 777 330 050"
+    var printable = new Printable()
+    printable.init({
+      styles: styles + styles_3 + `
+      .meal svg {
+        display: none;
+      }
+      #special {
+        margin-top: 18rem;
+        margin-bottom: 1em;
+        font-size: 2.5em;
+        text-align: center;
+      }
+      .group:nth-child(2):after {
+        display: none;
+      }
+      .call {
+        padding-top: 1.5em;
+      }
+      `,
+      parentSelector: '#special',
+      printButtonText: 'Dotisk A4',
+      childrenSelector: ["", "#special", ".special .meal", p],
+      copies: 1,
+      separateLast: false,
+    })
+
   });
   
 })()
