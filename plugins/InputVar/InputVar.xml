@@ -44,8 +44,8 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Holandský řízek&#13;
-Mleté vepřové maso se sýrem gouda smažené v trojobalu dozlatova, mléčná bramborová kaše s oříškovým máslem, kyselá okurka.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Holandský řízek &#13;
+Mleté vepřové maso 200 g  se sýrem gouda smažené v trojobalu dozlatova, mléčná bramborová kaše s oříškovým máslem, kyselá okurka.&#13;
 179 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Grilovaný vepřový šašlik&#13;
 Marinovaná vepřová panenka grilovaná na špízu s cibulí a paprikou, zakončené rajčetem a žampionem, hranolky, salát Coleslaw.&#13;
