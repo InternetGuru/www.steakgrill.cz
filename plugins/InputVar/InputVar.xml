@@ -96,7 +96,7 @@ Kuřecí prso naloženo v pikantní marinádě.&#13;
   <var var="cms-server" fn="formatjidlo" id="special-jidlo6"/>  
   
   <set type="textarea" for="upozorneni" pattern=".{0,150}" placeholder="Dne 22. ledna 2019 bude restaurace z technických důvodů uzavřena. Děkujeme za pochopení.">Upozornění</set>
-  <var var="cms-server" id="upozorneni">Z důvodu omezení provozu jsme otevřeli výdejní okénko a zavedli rozvoz jídel. Sledujte aktuální nabídku COVID.</var>
+  <var var="cms-server" id="upozorneni">Objednávky na Svatomartinské husí menu přijímáme na telefonu 777 284 321. Více na stránkách FB nebo Instagramu Steakgrill. Děkujeme</var>
   
   
   <fn id="formathlavickaakce" fn="pregreplace" pattern="(.+)\n(.+)\n(.+)" replacement="&lt;a href='\2' class='button button-img'&gt;&lt;span class='\3'&gt;i&lt;/span&gt; \1&lt;/a&gt;"/>
