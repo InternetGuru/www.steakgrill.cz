@@ -33,35 +33,33 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka( COVID)?, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka COVID, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 7. listopadu 2020</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 8. listopadu 2020</var>
   <var var="cms-server" id="nabidka-popis">Každý den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Lososový krém&#13;
-Krémová polévka s kousky lososa a hráškem.&#13;
-velká 55 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Tomášova gulášová polévka&#13;
+Taková jaká má být s kousky hovězího masa, brambory, paprikou, cibulí, česnekem, majoránkou.&#13;
+Velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka2"/>
   <set type="textarea" for="nabidka-predkrm\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Tatarský steak ze svíčkové, 50 g&#10;Námi míchaný 50g tataráček s topinkami a česnekem.&#10;129 Kč">Denní nabídka – předkrmy</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Vepřové výpečky&#13;
-Pomalu pečený vepřový bůček a krkovice s cibulí a česnekem, šťáva z výpeku, kyselé zelí, naše bramborové knedlíky, smažená cibulka.&#13;
-169 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Rožněné vepřové koleno&#13;
-Pomalu rožněné přední vepřové koleno s lahůdkovými bramborami, zelný salát s červenou řepou a křenem, hořčice.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Pečené farmářské kuře&#13;
+Pečená 1/4 farmářského kuřete z farmy od Jelena (700g) se slaninou, cibulí a divokým kořením, šťouchané brambory, růžičková kapusta dušená na másle.&#13;
 239 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Dančí guláš&#13;
+Pomalu dušený daněk z Kokořína, červená paprika a cibule, česnek, červené víno, mrkev s rozinkami, špekové knedlíky.&#13;
+219 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Smažená vinná klobása&#13;
 Od našeho řezníka pana Durčeka, obalená v trojobalu a usmažená dozlatova, mléčná bramborová kaše s oříškovým máslem, kyselá okurka.&#13;
 179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Beef Picadillo&#13;
-Mexická specialita z mletého hovězího masa, česneku, cibule, drcených rajčat a oliv, plátků mandlí, jalapeños papriček, jasmínová rýže.&#13;
-179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Náš tatarský steak &#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Náš tatarský steak &#13;
 Námi míchaný 150gramový tatarák ze svíčkové, topinky s česnekem.&#13;
 259 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6">Tagliatelle s krůtím prsem - STUDENÉ&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Tagliatelle s krůtím prsem - STUDENÉ&#13;
 Italské široké nudle s delikátní omáčkou z lesních hub, krůtí prso sous-vide, sýr Grana Padano, olivový olej.&#13;
 159 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert2"/>
