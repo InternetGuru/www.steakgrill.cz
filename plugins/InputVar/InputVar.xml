@@ -45,7 +45,7 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Asijský voňavý bůček &#13;
-Pomalu pečený vepřový bůček s kořením, česneková omáčka s čili, jasmínová rýže s kari kořením, mrkví, hráškem a smaženou cibulí, sezamová semínka, zelný salát s mrkví.&#13;
+Pomalu pečený vepřový bůček s kořením, omáčka Teriyaki s čili a česnekem, jasmínová rýže s kari kořením, mrkví, hráškem a smaženou cibulí, sezamová semínka, zelný salát s mrkví.&#13;
 179 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Pečený zabijačkový guláš&#13;
 Na kostky krájená vepřová plec a krkovice, vepřová játra, srdce a ledvinky, smažená cibule, česnek, zázvor a nové koření, strouhaný čerstvý křen s cibulí, podmáslový chléb.&#13;
@@ -53,7 +53,7 @@ Na kostky krájená vepřová plec a krkovice, vepřová játra, srdce a ledvink
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Grilovaný vepřový šašlik&#13;
 Marinovaná vepřová panenka grilovaná na špízu s cibulí a paprikou, hranolky, Coleslaw.&#13;
 179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Grilované naše norimberské klobásy&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Grilované naše bavorské klobásy&#13;
 Námi dělané klobásy, restované brambory s cibulí a kyselé zelí.&#13;
 169 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Kančí kýta se šípkovou - STUDENÉ&#13;
