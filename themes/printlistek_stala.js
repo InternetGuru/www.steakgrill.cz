@@ -401,7 +401,7 @@ h1 {
   margin-bottom: 0.5em;
 }
 h2 {
-  font-size: 1.5em;
+  font-size: 2em;
   margin-top: 0.25em;
 }
 h1:after {
@@ -470,14 +470,15 @@ body > div > div > * {
         margin-right: 1.5em;
       }
       .qr img {
-        width: 10em;
+        margin-left: -0.3em;
+        width: 7em;
         height: auto;
       }
       .tel, .link {
         font-size: 1.5em;
       }
       .tel {
-        padding-top: 1.5em;
+        padding-top: 1em;
         font-weight: 500;
       }
       `,
