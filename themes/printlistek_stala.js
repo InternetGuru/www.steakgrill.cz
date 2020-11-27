@@ -450,20 +450,41 @@ body > div > div > * {
       separateLast: false,
     })
 
-    var p = document.createElement("h2")
-    p.className = "call"
-    p.innerHTML = "Objednávky na čísle +420 777 330 050"
+    var ul = document.createElement("ul")
+    ul.className = "extra"
+    ul.innerHTML = `
+      <li class="qr"><img src="/files/nabidka-qr.svg"/></li>
+      <li class="tel">Objednávky na čísle +420 777 330 050</li>
+      <li class="link">www.steakgrill.cz/nabidka</li>
+    `
     var printable = new Printable()
     printable.init({
       styles: styles + styles_3 + `
-      .call {
+      .extra {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .qr {
+        float: left;
+        margin-right: 1.5em;
+      }
+      .qr img {
+        width: 10em;
+        height: auto;
+      }
+      .tel, .link {
+        font-size: 1.5em;
+      }
+      .tel {
         padding-top: 1.5em;
+        font-weight: 500;
       }
       `,
       parentSelector: 'h1#fastfood',
       printButtonText: 'Tisk (A4 na šířku)',
       //childrenSelector: ["h2, h2 + p, .meal:not(.evening)", ".regular_menu.hdesc > *"],
-      childrenSelector: ["h1", "h2, .meal", p],
+      childrenSelector: ["h1", "h2, .meal", ul],
       copies: 1,
       separateLast: false,
     })
