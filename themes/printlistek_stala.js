@@ -449,20 +449,25 @@ body > div > div > * {
       copies: 1,
       separateLast: false,
     })
+
+    var p = document.createElement("h2")
+    p.className = "call"
+    p.innerHTML = "Objednávky na čísle +420 777 330 050"
     var printable = new Printable()
     printable.init({
-      styles: styles + styles_3,
+      styles: styles + styles_3 + `
+      .call {
+        padding-top: 1.5em;
+      }
+      `,
       parentSelector: 'h1#fastfood',
       printButtonText: 'Tisk (A4 na šířku)',
       //childrenSelector: ["h2, h2 + p, .meal:not(.evening)", ".regular_menu.hdesc > *"],
-      childrenSelector: ["h1", "h2, .meal"],
+      childrenSelector: ["h1", "h2, .meal", p],
       copies: 1,
       separateLast: false,
     })
     
-    var p = document.createElement("h2")
-    p.className = "call"
-    p.innerHTML = "Objednávky na čísle +420 777 330 050"
     var printable = new Printable()
     printable.init({
       styles: styles + styles_3 + `
