@@ -449,13 +449,17 @@ body > div > div > * {
       copies: 1,
       separateLast: false,
     })
-
+    
+    var date = new Date()
+    const options = {  year: 'numeric', month: 'long', day: 'numeric' }
+    var stringDate = date.toLocaleDateString("cs-CZ", options)
     var ul = document.createElement("ul")
     ul.className = "extra"
     ul.innerHTML = `
       <li class="qr"><img src="/files/nabidka-qr.svg"/></li>
       <li class="tel">Objednávky na čísle +420 777 330 050</li>
       <li class="link">www.steakgrill.cz/nabidka</li>
+      <li class="date">${stringDate}</li>
     `
     var printable = new Printable()
     printable.init({
@@ -464,6 +468,9 @@ body > div > div > * {
         list-style: none;
         margin: 0;
         padding: 0;
+        position: absolute;
+        bottom: 5mm;
+        left: 5mm;
       }
       .qr {
         float: left;
@@ -474,18 +481,18 @@ body > div > div > * {
         width: 7em;
         height: auto;
       }
-      .tel, .link {
+      .tel, .link, .date {
         font-size: 1.5em;
       }
       .tel {
-        padding-top: 1em;
+        padding-top: 0.5em;
         font-weight: 500;
       }
       `,
       parentSelector: 'h1#fastfood',
       printButtonText: 'Tisk (A4 na šířku)',
       //childrenSelector: ["h2, h2 + p, .meal:not(.evening)", ".regular_menu.hdesc > *"],
-      childrenSelector: ["h1", "h2, .meal", ul],
+      childrenSelector: ["h1", ".hamburger h2, .hamburger .meal", ul, ".burrito h2, .burrito .meal, .steaky_covid h2, .steaky_covid .meal"],
       copies: 1,
       separateLast: false,
     })
