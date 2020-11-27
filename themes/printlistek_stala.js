@@ -471,6 +471,7 @@ body > div > div > * {
         position: absolute;
         bottom: 5mm;
         left: 5mm;
+        width: 35em;
       }
       .qr {
         float: left;
