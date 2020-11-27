@@ -468,6 +468,7 @@ body > div > div > * {
       separateLast: false,
     })
     
+/*    
     var printable = new Printable()
     printable.init({
       styles: styles + styles_3 + `
@@ -495,5 +496,6 @@ body > div > div > * {
     })
 
   });
+*/
   
 })()
