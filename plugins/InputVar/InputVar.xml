@@ -58,7 +58,7 @@ Pomalu pečená kachna s kmínem, solí a jablky, naše bramborové knedlíky, �
 299 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Náš tatarský steak ze svíčkové, 150 g&#13;
 Námi míchaný, topinky s česnekem.&#13;
-289 Kč</var>
+279 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
