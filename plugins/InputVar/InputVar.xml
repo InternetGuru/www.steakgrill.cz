@@ -33,7 +33,7 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka( COVID)?, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka COVID, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 7. prosince 2020</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 8. prosince 2020</var>
   <var var="cms-server" id="nabidka-popis">Každý den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Bramboračka s houbami&#13;
@@ -51,11 +51,11 @@ Pomalu pečený vepřový bůček marinovaný v jablečném cideru a tymiánu, m
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Kančí na smetaně (svíčková)&#13;
 Kýta a hřbet z mladého divokého prasete v delikátní smetanové omáčce z kořenové zeleniny, cibule, houskové knedlíky.&#13;
 229 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Tagliatelle s boloňským ragů&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Roštěná na slanině&#13;
+Plátky vyzrálé brazilské roštěné, cibule, slanina, jasmínová rýže, máslový hrášek.&#13;
+189 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Tagliatelle s boloňským ragů - CHLAZENÉ&#13;
 Mleté hovězí a vepřové maso, pancetta, kořenová zelenina, bílé víno, rajčata, italské těstoviny, strouhaný parmazán, olivový olej.&#13;
-179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Vepřové na paprice - CHLAZENÉ&#13;
-Pomalu dušená vepřová plec s cibulí, maďarskou červenou paprikou v delikátní omáčce se zakysanou smetanou, naše špecle.&#13;
 159 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
