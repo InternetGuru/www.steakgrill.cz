@@ -33,28 +33,32 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka( COVID)?, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka COVID, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 11. prosince 2020</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 12. prosince 2020</var>
   <var var="cms-server" id="nabidka-popis">Každý den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Čočková polévka&#13;
-S domácí klobásou.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Dršťková polévka.&#13;
+Taková, jaká má být, plná hovězích drštěk.&#13;
 malá 49 Kč&#13;
 velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka2"/>
   <set type="textarea" for="nabidka-predkrm\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Tatarský steak ze svíčkové, 50 g&#10;Námi míchaný 50g tataráček s topinkami a česnekem.&#10;129 Kč">Denní nabídka – předkrmy</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1">Roastbeef&#13;
+Dorůžova při nízké teplotě pečený vyzrálý uruguayský roštěnec, čerstvý podmáslový chléb, hořčicový dip, míchaný salát.&#13;
+129 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Španělský ptáček&#13;
-Závitky z vyzrálého brazilského roštěnce plněné slaninou, cibulí, kyselou okurkou, vajíčkem a salámem v delikátní omáčce, jasmínová rýže.&#13;
-199 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Tatarský steak ze svíčkové, 150 g&#13;
+Námi míchaný 150g tatarák s topinkami a česnekem.&#13;
+279 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Naše pečená sekaná&#13;
-Mleté hovězí a vepřové maso, cibule, česnek, slanina, náš bramborový salát.&#13;
+Mleté hovězí a vepřové maso, cibule, česnek, slanina, naše mléčná bramborová kaše, kyselá okurka.&#13;
 169 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">BBQ vepřová žebírka&#13;
-Vepřová žebírka pečená v naší BBQ omáčce, hranolky, Coleslaw.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Kančí výpečky&#13;
+Vepřová krkovice a bůček z divokého prasete pečená s cibulí, česnekem a kořením, šťáva z výpeku, bramborové knedlíky, smažená cibule, kyselé zelí.&#13;
 199 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4"/>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Pepper steak&#13;
+Na malé plátky krájená pravá svíčková v delikátní omáčce s červeným vínem, česnekem, barevným pepřem, cibulí, paprikou a hráškem, jasmínová rýže.&#13;
+229 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
