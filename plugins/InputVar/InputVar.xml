@@ -33,11 +33,11 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka( COVID)?, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka COVID, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 15. prosince 2020</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 16. prosince 2020</var>
   <var var="cms-server" id="nabidka-popis">Každý den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Zelňačka s klobásou&#13;
-Kysané zelí, brambory, smetana, červená paprika.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Králičí kaldoun&#13;
+Králičí vývar zahuštěný máslovou jíškou, kořenovoá zelenina, libeček, játrové kuličky, maso, široké nudle.&#13;
 malá 49 Kč&#13;
 velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka2"/>
@@ -51,10 +51,12 @@ Dušená vyzrálá brazilská roštěná v delikátní omáčce s tence krájen�
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Segedínský guláš&#13;
 Krájená vepřová krkovice ve smetanové omáčce s kysaným zelím a červenou paprikou, naše houskové knedlíky.&#13;
 179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Pečená krůtí prsa&#13;
-Pomalu pečená v naší unikátní peci s kouřovým aroma, šťouchané brambory se slaninou a pórkem, krémový špenát, přírodní šťáva.&#13;
-189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4"/>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Kančí výpečky&#13;
+Bůček a krkovice pečené s cibulí a česnekem, naše bramborové knedlíky, krémový špenát, šťáva z výpeku, smažená cibulka.&#13;
+179 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Míchaný salát se smaženými krevetami&#13;
+Listové saláty, cherry rajčátka, okurka, bambusové výhonky, ředkvička, pikantní thajský dresink se zázvorem a medem, v trojobalu dozlatova smažené krevety.&#13;
+199 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
@@ -63,10 +65,7 @@ Pomalu pečená v naší unikátní peci s kouřovým aroma, šťouchané brambo
   <set type="textarea" for="nabidka-pecivo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Škvarková placka naší Aničky&#10;Mouka, vepřové škvarky, kmín a sůl.&#10;35 Kč">Denní nabídka – pečivo</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-pecivo1"/>
   <set type="textarea" for="nabidka-pivo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*(\n\d,\d l \d+ Kč)+" placeholder="Benedict ležák 12°&#10;Klasická světlá dvanáctka z Břevnovského klášterního pivovaru. Vyrobena tradičním způsobem. Vyznačuje se plností a silnou chutí s jemnou hořkostí.&#10;0,3 l 32 Kč&#10;0,5 l 47 Kč">Denní nabídka – pivo</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-pivo1">American Pale Ale 11°&#13;
-Speciální pivo svrchně kvašené (APA) uvařené z několika druhů sladu a kvalitních chmelů, které kromě jemné hořkosti zanechávají ve vůni i v chuti znatelné aroma tropického ovoce.&#13;
-0,3 l 32 Kč&#13;
-0,5 l 52 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-pivo1"/>
 
 
   
