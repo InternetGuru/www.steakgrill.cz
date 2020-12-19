@@ -45,7 +45,7 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Rožněné koleno&#13;
-Rožněné zauzené XL koleno, pikantní salát z kysaného zelí, vejmrda, křenová hořčice a podmáslový chléb.&#13;
+Dvoukilové rožněné zauzené XL koleno, pikantní salát z kysaného zelí, vejmrda, křenová hořčice a podmáslový chléb.&#13;
 569 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Smažený vepřový řízek&#13;
 Vepřová pečeně obalená v trojobalu a usmažená dozlatova, mléčná bramborová kaše s oříškovým máslem, kyselá okurka.&#13;
