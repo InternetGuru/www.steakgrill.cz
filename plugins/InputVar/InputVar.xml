@@ -36,24 +36,26 @@
   <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 18. prosince 2020</var>
   <var var="cms-server" id="nabidka-popis">Každý den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Gulášová polévka&#13;
-Taková jaká má být, s kousky hovězího masa.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Scotch Broth&#13;
+Skotská polévka z jehněčího masa se zeleninou, kroupami a tymiánem.&#13;
 velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka2"/>
   <set type="textarea" for="nabidka-predkrm\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Tatarský steak ze svíčkové, 50 g&#10;Námi míchaný 50g tataráček s topinkami a česnekem.&#10;129 Kč">Denní nabídka – předkrmy</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Hovězí na smetaně zvané „svíčková“&#13;
-Vyzrálá uruguayská kýta v delikátní omáčce z kořenové zeleniny a smetany s divokým kořením, naše karlovarské knedlíky, citron, brusinky.&#13;
-219 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Kuřecí roláda&#13;
-Vykostěné kuře, plněné mletým masem, slaninou a špenátem, mléčná bramborová kaše s oříškovým máslem, šťáva z výpeku, kyselá okurka.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Rožněné koleno&#13;
+Rožněné zauzené XL koleno, pikantní salát z kysaného zelí, vejmrda, křenová hořčice a podmáslový chléb.&#13;
+569 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Smažený vepřový řízek&#13;
+Vepřová pečeně obalená v trojobalu a usmažená dozlatova, mléčná bramborová kaše s oříškovým máslem, kyselá okurka.&#13;
 179 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Pečená vepřová plec po selsku&#13;
 Pomalu pečená vepřová plec s cibulí a česnekem, naše bramborové knedlíky, smažená cibulka, kyselé zelí.&#13;
 169 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4"/>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Tatarák, 150 g&#13;
+Tatarský steak ze svíčkové, topinky a česnek.&#13;
+259 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
