@@ -33,7 +33,7 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka( COVID)?, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka COVID, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 3. ledna 2021</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 4. ledna 2021</var>
   <var var="cms-server" id="nabidka-popis">Každý den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Česnečka s vejcem&#13;
@@ -46,16 +46,14 @@ Hovězí vývar, brambory, česnek, zelenina, vejce, majoránka, chlebové kruto
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Boloňské lasagne&#13;
 Mleté hovězí a vepřové maso, kořenová zelenina, bílé víno, rajčata, pančeta, zapečené se sýrem Gouda a parmazánem, kyselá okurka.&#13;
-189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Vařené hovězí maso s rajskou omáčkou &#13;
-Vařená hovězí kýta v delikátní omáčce z cibule, rajčat, kořenové zeleniny a divokého koření, naše houskové knedlíky.&#13;
-189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Čevapčiči&#13;
-Chorvatská specialita z mletého vepřového masa, cibule a červené papriky, vařené lahůdkové brambory s máslem, čerstvá červená cibule, hořčice, ajvar.&#13;
 179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Beef stroganoff- STUDENÉ &#13;
-Uruguayská hovězí svíčková krájená na nudličky v delikátní smetanové omáčce se žampiony a kyselou okurkou, jasmínová rýže.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Maminčino kuře&#13;
+Pečené kuře na másle, těstoviny tagliatelle se směsí z restované cibule, slaniny, drůbežích jater, lesních hub a šťávy z výpeku kuřete, okurkový salát.&#13;
 179 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Naše grilované bavorské klobásky&#13;
+Grilované bavorské klobásky, mléčná bramborová kaše s oříškovým máslem, kyselá okurka.&#13;
+159 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
