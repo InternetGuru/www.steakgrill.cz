@@ -55,7 +55,7 @@ Grilovaný steak z lososa, teplý čočkový salát s baby špenátem, grilovan�
 219 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Gulášová polévka - STUDENÉ&#13;
 Taková jaká má být, s kousky hovězího masa.&#13;
-59 Kč</var>
+velká 59 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
