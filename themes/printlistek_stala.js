@@ -401,7 +401,7 @@ h1 {
   margin-bottom: 0.5em;
 }
 h2 {
-  font-size: 2em;
+  font-size: 1.5em;
   margin-top: 0.25em;
 }
 h1:after {
@@ -449,56 +449,20 @@ body > div > div > * {
       copies: 1,
       separateLast: false,
     })
-    
-    var date = new Date()
-    const options = {  year: 'numeric', month: 'long', day: 'numeric' }
-    var stringDate = date.toLocaleDateString("cs-CZ", options)
-    var ul = document.createElement("ul")
-    ul.className = "extra"
-    ul.innerHTML = `
-      <li class="qr"><img src="/files/nabidka-qr.svg"/></li>
-      <li class="tel">Objednávky na čísle +420 777 330 050</li>
-      <li class="link">www.steakgrill.cz/nabidka</li>
-      <li class="date">${stringDate}</li>
-    `
     var printable = new Printable()
     printable.init({
-      styles: styles + styles_3 + `
-      .extra {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        position: absolute;
-        bottom: 5mm;
-        left: 5mm;
-        width: 35em;
-      }
-      .qr {
-        float: left;
-        margin-right: 1.5em;
-      }
-      .qr img {
-        margin-left: -0.3em;
-        width: 7em;
-        height: auto;
-      }
-      .tel, .link, .date {
-        font-size: 1.5em;
-      }
-      .tel {
-        padding-top: 0.5em;
-        font-weight: 500;
-      }
-      `,
+      styles: styles + styles_3,
       parentSelector: 'h1#fastfood',
       printButtonText: 'Tisk (A4 na šířku)',
       //childrenSelector: ["h2, h2 + p, .meal:not(.evening)", ".regular_menu.hdesc > *"],
-      childrenSelector: ["h1", ".hamburger h2, .hamburger .meal", ul, ".burrito h2, .burrito .meal, .steaky_covid h2, .steaky_covid .meal"],
+      childrenSelector: ["h1", "h2, .meal"],
       copies: 1,
       separateLast: false,
     })
     
-/*    
+    var p = document.createElement("h2")
+    p.className = "call"
+    p.innerHTML = "Objednávky na čísle +420 777 330 050"
     var printable = new Printable()
     printable.init({
       styles: styles + styles_3 + `
@@ -510,6 +474,11 @@ body > div > div > * {
         margin-bottom: 1em;
         font-size: 2.5em;
         text-align: center;
+      }
+      h2#special:after {
+        content: "Pouze na objednání den předem!";
+        display: block; 
+        font-size: 1rem;
       }
       .group:nth-child(2):after {
         display: none;
@@ -524,8 +493,7 @@ body > div > div > * {
       copies: 1,
       separateLast: false,
     })
-*/
-  });
 
+  });
   
 })()
