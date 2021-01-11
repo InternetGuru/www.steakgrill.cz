@@ -33,7 +33,7 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka( COVID)?, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka COVID, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 10. ledna 2021</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 11. ledna 2021</var>
   <var var="cms-server" id="nabidka-popis">Každý den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Dršťková polévka&#13;
@@ -44,21 +44,21 @@ Taková jaká má být, plná hovězích drštěk.&#13;
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Smažený krůtí řízek&#13;
-Krůtí prsa obalená v trojobalu a usmažená do zlatova, mléčná bramborová kaše s oříškovým máslem, kyselá okurka.&#13;
-179 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Beef Stew&#13;
+Vše v jednom hrnci. Brazilská hovězí kýta krájená na kostky a dušená s cibulí, mrkví, hráškem, řapíkatým celerem a bramborami, 1/2 opečené česnekové bagetky.&#13;
+189 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Koprová omáčka s hovězím masem a vejcem&#13;
-Vařená hovězí kýta v delikátní smetanové omáčce, s koprem, vařené vajíčko, naše houskové knedlíky.&#13;
-179 Kč</var>
+Vařená hovězí kýta v delikátní smetanové omáčce, s koprem, vařené vajíčko, opečené lahůdkové brambory.&#13;
+169 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Tatarský steak ze svíčkové, 150 g&#13;
 Námi míchaný 150 g tataráček s topinkami a česnekem.&#13;
 259 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Balkánský džuveč&#13;
-Směs dušeného vepřového masa (libová plec), cibule, červených a zelených paprik, rajčat, cukety, jasmínové rýže, posypaná strouhanou goudou, pikantní zelný salát.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Smažený krůtí řízek&#13;
+Krůtí prsa obalená v trojobalu a usmažená do zlatova, mléčná bramborová kaše s oříškovým máslem, kyselá okurka.&#13;
 169 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Bramborové šišky s ořechy&#13;
-Na másle opečené bramborové šišky, mleté vlašské ořechy se skořicí, cukrem, přelité máslem.&#13;
-79 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Balkánský džuveč - STUDENÉ&#13;
+Směs dušeného vepřového masa (libová plec), cibule, červených a zelených paprik, rajčat, cukety, jasmínové rýže, posypaná strouhanou goudou, pikantní zelný salát.&#13;
+159 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1"/>
