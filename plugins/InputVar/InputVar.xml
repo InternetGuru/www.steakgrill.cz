@@ -33,32 +33,32 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka( COVID)?, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka COVID, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 14. ledna 2021</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 15. ledna 2021</var>
   <var var="cms-server" id="nabidka-popis">Každý den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Zelňačka s klobásou&#13;
-Kysané zelí, brambory, smetana, cibule, červená paprika, šunková klobása.&#13;
-55 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Ukrajinský boršč&#13;
+Hovězí maso, kořenová zelenina, bílé zelí, červená řepa, brambory, cibule a zakysaná smetana.&#13;
+velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka2"/>
   <set type="textarea" for="nabidka-predkrm\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Tatarský steak ze svíčkové, 50 g&#10;Námi míchaný 50g tataráček s topinkami a česnekem.&#10;129 Kč">Denní nabídka – předkrmy</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Grilované kuřecí Supreme&#13;
-Grilované kuřecí prso s kůží a části křídla marinované v bylinkové marinádě, vařené lahůdkové brambory s petrželkou, mrkvové pyré.&#13;
-179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Dančí na smetaně (svíčková)&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Dančí na smetaně (svíčková)&#13;
 Dančí kýta a hřbet pomalu pečené s kořenovou zeleninou, slaninou a kořením s delikátní smetanovou omáčkou, naše houskové knedlíky.&#13;
 199 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Hovězí v kapustě&#13;
-Na kostky krájený hovězí krk dušený s cibulí a kapustou, vařené brambory s petrželkou.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Grilované kuřecí  Supreme&#13;
+Grilované kuřecí prso s kůží a částí křídla marinované v bylinkové marinádě, vařené lahůdkové brambory s petrželkou, mrkvové pyré.&#13;
 179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Porchetta - CHLAZENÉ&#13;
-Dvanácti kilové sele, vykostěné, pomalu dozlatova pečené, naplněné mletým vepřovým masem s kořením, česnekem a vepřovými játry, mléčná bramborová kaše, smažená cibulka, kyselá okurka a šťáva z výpeku.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Grilovaný vepřový šašlik&#13;
+Marinovaná vepřová panenka grilovaná na špízu s cibulí a paprikou, zakončené rajčetem a žampionem, hranolky, salát Coleslaw.&#13;
+179 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Znojemská roštěná &#13;
+Vyzrálý uruguayský nízký roštěnec, krájený na plátky a dušený v delikátní omáčce s kyselými okurkami, jasmínová rýže.&#13;
 189 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Jelení guláš - CHLAZENÉ&#13;
 Na kostky krájené, dušené jelení maso, červené víno, cibule, naše špekové knedlíky.&#13;
-189 Kč</var>
+169 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1"/>
