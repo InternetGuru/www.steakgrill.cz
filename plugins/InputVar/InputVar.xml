@@ -33,7 +33,7 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka( COVID)?, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka COVID, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 18. ledna 2021</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 19. ledna 2021</var>
   <var var="cms-server" id="nabidka-popis">Každý den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Fazolová polévka s klobásou&#13;
@@ -45,17 +45,17 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Grilled filet Mignon&#13;
-Grilovaný steak z pravé svíčkové, smetanová pepřová omáčka, pečené rozmarýnové brambory, brokolice na másle.&#13;
-259 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Vepřo knedlo zelo&#13;
-Pečená vepřová pečeně s cibulí a kmínem, naše bramborové knedlíky, kyselé zelí, smažená cibule, šťáva z výpeku.&#13;
-179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Vepřové na paprice&#13;
-Dušená vepřová kýta v delikátní smetanové omáčce s červenou paprikou, naše domácí špecle.&#13;
-169 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Zabijačkový guláš&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Zabijačkový guláš&#13;
 Na kostky krájená pečená vepřová krkovice, játra, ledviny, srdce, cibule, česnek, koření, podmáslový chléb, čerstvý křen s cibulí.&#13;
+169 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Vepřové na paprice&#13;
+Dušená vepřová kýta v delikátní smetanové omáčce s červenou paprikou, naše špecle.&#13;
+169 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Asijské soté z vepřové panenky&#13;
+Na nudličky krájená vepřová panenka, červená a zelená paprika, žampiony, cibule, pórek, jidášovo ucho, bambusové výhonky, mungo klíčky, sojová a Teriyaki omáčka, jasmínová rýže.&#13;
+189 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Vepřo knedlo zelo - CHLAZENÉ&#13;
+Pečená vepřová pečeně s cibulí a kmínem, naše bramborové knedlíky, kyselé zelí, smažená cibule, šťáva z výpeku.&#13;
 169 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
