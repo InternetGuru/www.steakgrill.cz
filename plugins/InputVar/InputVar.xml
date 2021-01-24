@@ -33,7 +33,7 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka( COVID)?, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka COVID, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 23. ledna 2021</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 24. ledna 2021</var>
   <var var="cms-server" id="nabidka-popis">Každý den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Mexický česnekový krém&#13;
@@ -47,18 +47,18 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Tatarský steak ze svíčkové, 150 g&#13;
 Námi míchaný 150g tataráček s topinkami a česnekem.&#13;
 259 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Roastbeef&#13;
-Při nízké teplotě dorůžova pečený vyzrálý uruguayský roštěnec, pečené lahůdkové brambory s rozmarýnem, naše tatarská omáčka.&#13;
-239 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Segedínský guláš&#13;
-Vepřová krkovice krájená na kostky, dušená s cibulí, kysaným zelím a smetanou, náš houskový knedlík.&#13;
-179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Lo Mein (čínské nudle s kuřecím masem)&#13;
-Restované s kuřecím masem, zeleninou a sójovou omáčkou, posypané sezamem.&#13;
-179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Tlačenkový salát&#13;
-Naše tlačenka, cibule, hořčice, jasní cibulka, podmáslový chléb(na večer k pivu :)).&#13;
-89 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Pepper steak&#13;
+Na malé plátky krájená pravá svíčková v delikátní omáčce s červeným vínem, česnekem, barevným pepřem, cibulí, paprikou a hráškem, jasmínová rýže.&#13;
+229 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Hovězí po Burgundsku&#13;
+Pomalu dušená hovězí líčka na červeném víně s cibulkami, kořenová zelenina, řepíkatý celer,  mléčná bramborová kaše s oříškovým máslem.&#13;
+219 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Vepřové s mrkví&#13;
+Na kostky krájená vepřová kýta(ořech) dušená s mrkví a muškátovým květem, vařené brambory s petrželkou.&#13;
+169 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Dukátové buchtičky s vanilkovým krémem&#13;
+Malé kousky těsta obalené v přepuštěném másle a upečené dozlatova, vanilkový krém s pravou vanilkou a rumem, zdobené borůvkami a malinami.&#13;
+159 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1"/>
