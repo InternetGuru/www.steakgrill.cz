@@ -33,7 +33,7 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka( COVID)?, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka COVID, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 29. ledna 2021</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 30. ledna 2021</var>
   <var var="cms-server" id="nabidka-popis">Každý den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Saint-Germain&#13;
@@ -44,19 +44,21 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Roštěná na smetaně zvaná „svíčková“&#13;
-Vyzrálý uruguayský roštěnec pečený s kořenovou zeleninou, cibulí, slaninou a divokým kořením s delikátní smetanovou omáčkou, naše karlovarské knedlíky, citron, brusinky.&#13;
-219 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Rožněná vepřová krkovice&#13;
-Pomalu rožněná krkovice marinovaná v pivu, koření a česneku, ve výpeku pečené brambory s cibulí, zelný salát s křenem a červenou řepou.&#13;
-199 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Rožněné koleno&#13;
+Rožněné přední vepřové koleno, marinované v pivní marinádě, cibulový salát, hrubozrnná hořčice s křenem, podmáslový chléb.&#13;
+249 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Geschnetzeltes&#13;
+Na nudličky krájená vepřová panenka v delikátní smetanové omáčce se žampiony a bílým vínem, bramborové rösti.&#13;
+179 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Kangaroo burger&#13;
 Grilovaný steak z mleté klokaní kýty, sezamová bulka, avokádová majonéza, camembert, smažená cibulka s BBQ omáčkou, rajče, ledový salát, smažené farmářské brambory, BBQ dip.&#13;
 229 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Krůtí roláda se žampiony&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Pečený Thajský losos&#13;
+Losos marinovaný v pikantní marinádě z limetkové šťávy, sójové omáčky, zázvoru, česneku a chilli omáčky, jasmínová rýže s kokosem a koriandrem.&#13;
+209 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Krůtí roláda se žampiony STUDENÉ&#13;
 Pomalu pečená krůtí roláda plněná žampiony, smaženou cibulkou a mletým krůtím masem, mléčná bramborová kaše, šťáva z výpeku, mrkvový salát s ananasem.&#13;
-179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
+159 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1"/>
