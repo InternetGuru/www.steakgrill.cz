@@ -33,7 +33,7 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka( COVID)?, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka COVID, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 4. února 2021</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 5. února 2021</var>
   <var var="cms-server" id="nabidka-popis">Každý den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Česnečka s vejcem&#13;
@@ -44,21 +44,19 @@ Silný hovězí vývar, brambory, česnek, zelenina, vejce, majoránka, chlebov�
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Grilovaný vepřový šašlik&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Trhané vepřové&#13;
+Pomalu pečená kořeněná vepřová plec, šťáva z výpeku, mléčná bramborová kaše s oříškovým máslem, naše pickles zelenina.&#13;
+179 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Náš guláš na pivě&#13;
+Hovězí krk krájený na kostky, dušený s cibulí, pivem, červenou paprikou a česnekem, čerstvá cibule, naše špecle.&#13;
+189 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Grilovaný vepřový šašlik&#13;
 Marinovaná vepřová panenka grilovaná na špízu s cibulí a paprikou, zakončené rajčetem a žampionem, hranolky, míchaný salát s balkánským sýrem.&#13;
 189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Španělský ptáček&#13;
-Plátek uruguayské hovězí roštěné plněný slaninou, cibulí, okurkou, vajíčkem a salámem, Risi-Bisi (rýže, hrášek, cibule).&#13;
-199 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Rožněný vepřový bůček&#13;
-Vykostěný vepřový bůček kořeněný paprikou, kmínem a česnekem, urožněný  dozlatova, brambory pečené pod rožněm, šťáva z výpeku, pikantní zelný salát z kysaného zelí.&#13;
-169 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Dančí na smetaně&#13;
-Dančí kýta a hřbet pečený s kořenovou zeleninou, cibulí a kořením v delikátní smetanové omáčce, náš karlovarský knedlík, citron, brusinky.&#13;
-219 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Vepřové na houbách - CHLAZENÉ &#13;
-Na kostky krájená vepřová plec dušená s cibulí a lesními houbami v delikátní omáčce, jasmínová rýže.&#13;
-159 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Grilovaný Pork Chop, 250 g&#13;
+Marinovaná, grilovaná, vepřová pečeně s kostí a části bůčku, žampionová omáčka Diane, kukuřice O´Brien, šťouchané brambory.&#13;
+229 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1"/>
