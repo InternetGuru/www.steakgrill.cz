@@ -1754,16 +1754,16 @@ body[data-link="/stala_nabidka"] .section .overlay p {
   border-bottom: thin solid rgba(255,255,255,0.5) !important;
 }
 /*********************************/
-.globalmenu__item .globalmenu__item--current {
+.globalmenu__item--current {
   position: relative;
 }
-.globalmenu__item .globalmenu__item--current:before,
+.globalmenu__item--current:before,
 #footer .globalmenu__item a:before {
   content: "•";
   position: absolute;
   left: 0.75rem;
-  font-size: 1.7rem;
-  top: 0.6rem;
+  font-size: 1.6rem;
+  top: 0.55rem;
 }
 #footer .globalmenu a {
   border-bottom: none;
@@ -1776,8 +1776,9 @@ body[data-link="/stala_nabidka"] .section .overlay p {
   margin-right: 0.2em;
   visibility: hidden;
 }
-#footer .globalmenu__item .globalmenu__item--current:before {
+#footer .globalmenu__item--current:before {
   visibility: visible;
-  vertical-align: -0.15em;
+  left: 0;
+  top: 0.05em;
 }
 /*********************************/
