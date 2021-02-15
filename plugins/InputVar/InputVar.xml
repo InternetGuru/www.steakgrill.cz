@@ -45,7 +45,7 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Steak z krkovice&#13;
-Grilovaný steak z krkovice, marinovaný v pikantní marinádě, pečené rozmarýnové brambory, restované fazolové lusky se slaninou a česnekem, dip z rajčat, křenu, koňaku a majonézy.&#13;
+Grilovaný steak z krkovice 250g , marinovaný v pikantní marinádě, pečené rozmarýnové brambory, restované fazolové lusky se slaninou a česnekem, dip z rajčat, křenu, koňaku a majonézy.&#13;
 229 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Kuřecí roláda se sušenými rajčaty&#13;
 Vykostěné kuře plněné masovou fáší se sušenými rajčaty, mléčná bramborová kaše, brokolice na másle.&#13;
