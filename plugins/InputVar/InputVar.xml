@@ -92,7 +92,7 @@ Kuřecí prso naloženo v pikantní marinádě.&#13;
   <var var="cms-server" fn="formatjidlo" id="special-jidlo6"/>  
   
   <set type="textarea" for="upozorneni" pattern=".{0,150}" placeholder="Dne 22. ledna 2019 bude restaurace z technických důvodů uzavřena. Děkujeme za pochopení.">Upozornění</set>
-  <var var="cms-server" id="upozorneni">Dnes došlo bohužel k výpadku elektrické energie, tak do odvolání jsou k dispozici naše polévky a denní nabídka. Děkujeme za pochopení.</var>
+  <var var="cms-server" id="upozorneni">Každý den máme pro Vás připravenou denní nabídku jídel s sebou a rozvozy. Více informací na webu nebo www.facebook.com/Steakgrill/</var>
   
   
   <fn id="formathlavickaakce" fn="pregreplace" pattern="(.+)\n(.+)\n(.+)" replacement="&lt;a href='\2' class='button button-img'&gt;&lt;span class='\3'&gt;i&lt;/span&gt; \1&lt;/a&gt;"/>
