@@ -44,8 +44,8 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Medailonky z uruguayské hovězí svíčkové&#13;
-Šťouchané brambory, sázené vejce, krémový špenát, pepřová omáčka.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Hovězí medailonky&#13;
+Plátky vyzrálého uruguayského roštěnce, restované brambor s cibulí, omáčka z hrubozrnné hořčice a smetany, krémový špenát.&#13;
 229 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Znojemská hovězí pečeně&#13;
 Dušená vyzrálá hovězí kýta z USA v delikátní omáčce s tence krájenými kyselými okurkami, cibulí a slaninou, jasmínová rýže.&#13;
