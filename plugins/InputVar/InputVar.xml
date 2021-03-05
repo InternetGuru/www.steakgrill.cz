@@ -45,7 +45,7 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">New York Strip Steak au Poivre, 200 g&#13;
-Velice populární americký steak. Tenderizovaný steak z nízkého roštěnce, okořeněný čerstvě drceným pepřem, lahůdkové brambory s rozmarýnem a olivovým olejem, houbová omáčka.&#13;
+Velice populární americký steak. Tenderizovaný steak z nízkého roštěnce, okořeněný čerstvě drceným pepřem, lahůdkové brambory s rozmarýnem a olivovým olejem, houbová omáčka, krémový špenát.&#13;
 289 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Pepper steak&#13;
 Na malé plátky krájená pravá svíčková v delikátní omáčce s červeným vínem, česnekem, barevným pepřem, cibulí, paprikou a hráškem, jasmínová rýže.&#13;
