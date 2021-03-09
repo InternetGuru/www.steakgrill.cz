@@ -44,18 +44,16 @@ Francouzská polévka z pórku, brambor a smetany.&#13;
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Pečený muflon na česneku&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Burger s trhaným hovězím&#13;
+Stařená hovězí kýta pečená v našem rožni, hořčicový dresing, ledový salát, okurka, hranolky, Coleslaw.&#13;
+239 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Pečený muflon na česneku&#13;
 Pečený muflon s česnekem, cibulí a kořením, bramborové špalíčky, krémový špenát.&#13;
-199 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Segedínský guláš&#13;
-Krájená vepřová plec ve smetanové omáčce s kysaným zelím a červenou paprikou, naše houskové knedlíky.&#13;
+189 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Dušená krůtí játra&#13;
+Krájená na plátky, dušená s cibulí a slaninou, jasmínová rýže.&#13;
 179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Kančí řízečky&#13;
-Řízečky v trojobalu ochucené česnekem a majoránkou, šťouchané brambory, okurka.&#13;
-179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Hovězí na houbách - CHLAZENÉ&#13;
-Vyzrála uruguayská nízká roštěná s lesními houbami, RISI-BISI.&#13;
-219 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
