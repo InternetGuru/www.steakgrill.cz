@@ -44,8 +44,8 @@ Francouzská polévka z pórku, brambor a smetany.&#13;
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Burger s trhaným hovězím&#13;
-Stařená hovězí kýta pečená v našem rožni, hořčicový dresing, ledový salát, kyselá okurka, hranolky, Coleslaw.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Burger s rožněnou kýtou&#13;
+Stařená hovězí kýta pečená v našem rožni,  hořčicový dresing, ledový salát, kyselá okurka, hranolky, Coleslaw.&#13;
 239 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Pečený muflon na česneku&#13;
 Pečený muflon s česnekem, cibulí a kořením, bramborové špalíčky, krémový špenát.&#13;
