@@ -53,7 +53,9 @@ Pečený muflon s česnekem, cibulí a kořením, bramborové špalíčky, krém
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Dušená krůtí játra&#13;
 Krájená na plátky, dušená s cibulí a slaninou, jasmínová rýže.&#13;
 179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4"/>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Segedínský guláš - CHLAZENÉ&#13;
+Krájená vepřová plec ve smetanové omáčce s kysaným zelím a červenou paprikou, naše houskové knedlíky.&#13;
+169 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
