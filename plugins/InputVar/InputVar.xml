@@ -33,7 +33,7 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka( COVID)?, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka COVID, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 14. března 2021</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 15. března 2021</var>
   <var var="cms-server" id="nabidka-popis">Každý den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Gulášová polévka&#13;
@@ -47,18 +47,14 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Asijský vepřový bůček&#13;
 Pomalu pečený kořeněný vepřový bůček, sójová omáčka, koření, chilli, zázvor, pražená rýže se zeleninou, salát z čínského zelí a mrkve.&#13;
 189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Rožněné koleno&#13;
-Dvoukilové rožněné zauzené vepřové koleno, pikantní salát z kysaného zelí, vejmrda, hrubozrnná hořčice a podmáslový chléb.&#13;
-579 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Pečená husí stehna&#13;
-Pomalu pečená stehna z maďarských hus, sůl, kmín, šťáva z výpeku, naše bramborové lokše, červené vinné zelí.&#13;
-239 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Smažený krůtí řízek&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Smažený krůtí řízek&#13;
 Krůtí prsa krájená na plátky, obalená v trojobalu a usmažená dozlatova, mléčná bramborová kaše, salát z červené řepy se sýrem Halloumi.&#13;
 179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Hovězí po Burgundsku - CHLAZENÉ&#13;
-Pomalu dušený hovězí krk s kořenovou zeleninou, červeným vínem a rozmarýnem, mléčná bramborová kaše s oříškovým máslem.&#13;
-179 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Pečená husí stehna&#13;
+Pomalu pečená stehna z maďarských hus, sůl, kmín, šťáva z výpeku, naše bramborové lokše, červené vinné zelí.&#13;
+219 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4"/>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1"/>
