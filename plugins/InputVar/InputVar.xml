@@ -69,28 +69,24 @@ Palačinky plněné ochuceným tvarohem s rozinkami, zapečené dozlatova, jahod
 
   
   <set type="text" for="(special|special-popis)" pattern=".+" placeholder="Víkendová nabídka z otevřené kuchyně, 14. až 15. dubna 2018">Speciální nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="special" required="required">Vakuovaná masa COVID</var>
-  <var var="cms-server" id="special-popis">Nabízíme marinovaná vakuově zabalená masa na pánev, nebo na gril, ke koupi s sebou. Pouze na objednání den předem!</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="special" required="required">STEAKGRILL FAST DRIVE MENU</var>
+  <var var="cms-server" id="special-popis">Nabídka jídel, které si můžete vychutnat za cca 10 minut od telefonického objednání, bez zbytečného čekání a s donáškou až k Vašemu automobilu.</var>
 <!--   <set type="textarea" for="special-predkrm\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n(.+ )?\d{1,3} Kč){1,2}" placeholder="Tatarský steak ze svíčkové, 50 g&#10;Námi míchaný 50g tataráček s topinkami a česnekem.&#10;129 Kč">Speciální nabídka – předkrmy</set> -->
 <!--   <var var="cms-server" fn="formatjidlo" id="special-predkrm1"/> -->
 <!--   <var var="cms-server" fn="formatjidlo" id="special-predkrm2"/> -->
 <!--   <var var="cms-server" fn="formatjidlo" id="special-predkrm3"/> -->
   <set type="textarea" for="special-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Tatarský steak ze svíčkové, 150 g&#10;Námi míchaný 150g tataráček s topinkami a česnekem.&#10;289 Kč">Speciální nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="special-jidlo1" required="required">Pork chop, 300 g&#13;
-Vepřová kotleta s kostí a částí bůčku naložena v bylinkové marinádě.&#13;
-119 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="special-jidlo2">Vepřová panenka, 200 g&#13;
-Libová a křehká část vepřového masa marinovaná s kořením argentina a olivovým olejem.&#13;
-79 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="special-jidlo3">Vepřová krkovice, 200 g&#13;
-Šťavnatá část vepřového masa naložena v pikantní marinádě.&#13;
-59 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="special-jidlo4">Kachní prso (sous-vide), 170 g&#13;
-Kachní prso s kůží marinované s barevným pepřem a rozmarýnovým olejem.&#13;
-55 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="special-jidlo5">Kuřecí steak, 170 g&#13;
-Kuřecí prso naloženo v pikantní marinádě.&#13;
-49 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="special-jidlo1" required="required">Wagyu Burger, 150 g&#13;
+Grilovaný steak z mletého hovězího masa z japonského plemene Wagyu, které se vyznačuje vysokým mramorováním s jedinečnou chutí, sezamová bulka, BBQ majonéza, čedar, rajče, slanina, ledový salát, cibule, okurka, hranolky, Coleslaw.&#13;
+249 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="special-jidlo2">Beef Burrito&#13;
+Zapečená pšeničná tortilla plněná tence krájeným naším pečeným hovězím, čedarová salsa, ledový salát, rajče, jarní cibulka, kukuřice, sýr čedar a gouda, hranolky, rajčatová salsa.&#13;
+219 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="special-jidlo3">Smažené kuřecí nugety&#13;
+Smažené nugety z čerstvých kuřecích prsou, hranolky, Coleslaw.&#13;
+189 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="special-jidlo4"/>
+  <var var="cms-server" fn="formatjidlo" id="special-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="special-jidlo6"/>  
   
   <set type="textarea" for="upozorneni" pattern=".{0,150}" placeholder="Dne 22. ledna 2019 bude restaurace z technických důvodů uzavřena. Děkujeme za pochopení.">Upozornění</set>
