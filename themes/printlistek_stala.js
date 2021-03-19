@@ -475,21 +475,19 @@ body > div > div > * {
         font-size: 2.5em;
         text-align: center;
       }
-      h2#special:after {
-        content: "Pouze na objednání den předem!";
-        display: block; 
-        font-size: 1rem;
-      }
       .group:nth-child(2):after {
         display: none;
       }
       .call {
-        padding-top: 1.5em;
+        padding-top: 0.5em;
+      }
+      h2 + p {
+        display: block;
       }
       `,
       parentSelector: '#special',
       printButtonText: 'Dotisk A4',
-      childrenSelector: ["", "#special", ".special .meal", p],
+      childrenSelector: ["", "#special", ".special .description", ".special .meal", p],
       copies: 1,
       separateLast: false,
     })
