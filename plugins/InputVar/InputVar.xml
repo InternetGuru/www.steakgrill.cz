@@ -73,7 +73,7 @@ V trojobalu dozlatova usmažená treska tmavá, vařené lahůdkové brambory s 
 <!--   <var var="cms-server" fn="formatjidlo" id="special-predkrm1"/> -->
 <!--   <var var="cms-server" fn="formatjidlo" id="special-predkrm2"/> -->
 <!--   <var var="cms-server" fn="formatjidlo" id="special-predkrm3"/> -->
-  <set type="textarea" for="special-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Tatarský steak ze svíčkové, 150 g&#10;Námi míchaný 150g tataráček s topinkami a česnekem.&#10;289 Kč">Speciální nabídka – hlavní jídla</set>
+  <set type="textarea" for="special-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Tatarský steak ze svíčkové, 150 g&#10;Námi míchaný 150g tataráček s topinkami a česnekem.&#10;289 Kč">Speciální nabídka – hlavní jídla</set>
   <var var="cms-server" fn="formatjidlo" id="special-jidlo1" required="required">Wagyu Burger s hranolky&#13;
 Grilovaný steak z mletého hovězího masa z japonského plemene Wagyu (150 g), které se vyznačuje vysokým mramorováním s jedinečnou chutí, sezamová bulka, BBQ majonéza, čedar, rajče, slanina, ledový salát, cibule, okurka, hranolky, kečup, tatarka.&#13;
 249 Kč</var>
