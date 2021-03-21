@@ -45,13 +45,13 @@ Kořenová zelenina, brambory, směs lesních hub.&#13;
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Tatarský steak ze svíčkové&#13;
-Námi míchaný 150g tataráček s topinkami a česnekem.&#13;
+Námi míchaný 150g tatarák s topinkami a česnekem.&#13;
 289 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Rožněné sele&#13;
-Vykostěné 12 kg rožněné sele, pod rožněm pečené lahůdkové brambory, pikantní salát z kysaného zelí, hořčice.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Rožněné rolované sele&#13;
+Vykostěné rožněné sele krájené na plátky, pod rožněm pečené lahůdkové brambory, pikantní salát z kysaného zelí, hořčice.&#13;
 219 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Grilled Fillet Mignon&#13;
-Grilovaný steak z pravé svíčkové, ragú z hlívy ústřičné a žampionů s bílým vínem a smetanou, šťouchané brambory.&#13;
+Grilovaný steak z hovězí svíčkové, ragú z hlívy ústřičné a žampionů s bílým vínem a smetanou, šťouchané brambory se slaninou a pórkem.&#13;
 249 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Pečená krkovice po selsku&#13;
 Pomalu pečená krkovice s cibulí a česnekem, naše bramborové knedlíky, krémový špenát, smažená cibule, šťáva z výpeku.&#13;
