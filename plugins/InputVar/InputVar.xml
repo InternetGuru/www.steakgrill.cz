@@ -45,7 +45,7 @@ Kořenová zelenina, brambory, směs lesních hub.&#13;
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Steak z lososa&#13;
-Grilovaný steak z lososa, restovaná zelenina, míchaný salát.&#13;
+Grilovaný steak z lososa s křupavou kůží, restovaná zelenina - paprika, cuketa, cibule, zelí, rajče, česnek, míchaný listový salát.&#13;
 199 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Rožněné rolované sele&#13;
 Vykostěné rožněné sele krájené na plátky, pod rožněm pečené lahůdkové brambory, pikantní salát z kysaného zelí, hořčice.&#13;
@@ -53,7 +53,7 @@ Vykostěné rožněné sele krájené na plátky, pod rožněm pečené lahůdko
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Grilled Fillet Mignon&#13;
 Grilovaný steak z hovězí svíčkové, krémový špenát, šťouchané brambory se slaninou a pórkem, pepřová omáčka.&#13;
 239 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Naše halušky (strapačky)- CHLAZENÉ&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Naše halušky (strapačky) - CHLAZENÉ&#13;
 S naším uzeným masem a kyselým zelím.&#13;
 139 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
