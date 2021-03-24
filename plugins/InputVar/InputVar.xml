@@ -45,13 +45,13 @@ Americká krémová polévka s kukuřicí, paprikou, slaninou a smetanou.&#13;
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Pečené vepřové paličky - Drum Sticks&#13;
-Seříznuté vepřové koleno marinované v koření a pomalu upečené s cibulí a česnekem, šťouchané brambory, šťáva z výpeku, smažená cibulka, kyselá okurka a Jalapeño papričky.&#13;
+Seříznuté vepřové koleno marinované v koření a pomalu upečené s cibulí a česnekem, šťouchané brambory se slaninou a pórkem, šťáva z výpeku, smažená cibulka, kyselá okurka a Jalapeño papričky.&#13;
 199 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Vařené hovězí maso s rajskou omáčkou&#13;
 Vařené hovězí maso v omáčce z rajčat, cibule, kořenové zeleniny a koření, naše houskové knedlíky.&#13;
 179 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Pražená rýže s vepřovou panenkou&#13;
-Na nudličky krájená vepřová panenka, jasmínová rýže, zelenina, koření, čili, vaječná omeleta, smažená cibulka, volské oko, kyselá okurka.&#13;
+Na nudličky krájená vepřová panenka, jasmínová rýže, zelenina, koření, chilli, vaječná omeleta, smažená cibulka, volské oko, kyselá okurka.&#13;
 179 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Dukátové buchtičky&#13;
 Naše čerstvě upečené buchtičky, vanilkový krém s pravou vanilkou, borůvky, maliny.&#13;
