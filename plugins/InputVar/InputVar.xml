@@ -33,7 +33,7 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka( COVID)?, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka COVID, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 23. března 2021</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 24. března 2021</var>
   <var var="cms-server" id="nabidka-popis">Každý den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Kukuřičný Chowder&#13;
@@ -50,13 +50,15 @@ Seříznuté vepřové koleno marinované v koření a pomalu upečené s cibul�
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Vařené hovězí maso s rajskou omáčkou&#13;
 Vařené hovězí maso v omáčce z rajčat, cibule, kořenové zeleniny a koření, naše houskové knedlíky.&#13;
 179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Grilled Fillet Mignon&#13;
-Grilovaný steak z hovězí svíčkové, krémový špenát, šťouchané brambory se slaninou a pórkem, pepřová omáčka.&#13;
-239 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Čevabčiči&#13;
-Válečky mletého vepřového masa, červené papriky, cibule, restované brambory, cibule, hořčice a ajvar.&#13;
-169 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Pražená rýže s vepřovou panenkou&#13;
+Na nudličky krájená vepřová panenka, jasmínová rýže, zelenina, koření, čili, vaječná omeleta, smažená cibulka, volské oko, kyselá okurka.&#13;
+179 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Dukátové buchtičky&#13;
+Naše čerstvě upečené buchtičky, vanilkový krém s pravou vanilkou, borůvky, maliny.&#13;
+159 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Grilovaný vepřový šašlik&#13;
+Marinovaná vepřová panenka grilovaná na špízu s cibulí a paprikou, zakončené rajčetem, hranolky, salát coleslaw.&#13;
+189 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1"/>
