@@ -45,10 +45,10 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Grilovaný vepřový šašlik&#13;
-Marinovaná vepřová panenka grilovaná na špízu s cibulí a paprikou, zakončené rajčetem a žampionem, šťouchané brambory se slaninou a pórkem, míchaný salát s baby špenátem, olivami a balkánským sýrem, naše tatarská omáčka.&#13;
+Marinovaná vepřová panenka grilovaná na špízu s cibulí a paprikou, zakončené rajčetem a žampionem, šťouchané brambory se slaninou a pórkem, míchaný salát s baby špenátem, olivami a balkánským sýrem.&#13;
 179 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Vegetable Fritto Misto &#13;
-Žampiony, brokolice, lilek, cuketa a cibulové kroužky obalené v trojobalu a usmažené dozlatova, vařené brambory s petrželkou a máslem.&#13;
+Žampiony, brokolice, lilek, cuketa a cibulové kroužky obalené v trojobalu a usmažené dozlatova, vařené brambory s petrželkou a máslem, naše tatarská omáčka.&#13;
 169 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Hovězí na smetaně zvané svíčková&#13;
 Vyzrálá falešná svíčková (USA) v delikátní smetanové omáčce z kořenové zeleniny, cibule a koření, naše karlovarské knedlíky, citron, brusinky.&#13;
