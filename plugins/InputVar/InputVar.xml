@@ -19,7 +19,7 @@
   <fn id="formatserver" fn="pregreplace" pattern="(se)(rv)(er)" replacement="&lt;dt&gt;$1&lt;/dt&gt;&lt;dd&gt;$2&lt;/dd&gt;&lt;dt class=&quot;price&quot;&gt;Cena:&lt;/dt&gt;&lt;dd class=&quot;price&quot;&gt;$3&lt;/dd&gt;"/>
   <fn id="formatnbspdate" fn="pregreplace" pattern="(\d)\. (\S+) (\d+)" replacement="$1. $2 $3"/>
   <fn id="formattimes" fn="pregreplace" pattern="(\d)x " replacement="$1× "/>
-  <fn id="formatprep" fn="pregreplace" pattern="\b(k|s|v|z|o|u|a|i) " replacement="$1 "/>
+  <fn id="formatprep" fn="pregreplace" pattern="\b(k|s|v|z|o|u|i) " replacement="$1 "/>
   <fn id="formatheading" fn="sequence">
     <call>formatnbspdate</call>
     <call>formattimes</call>
