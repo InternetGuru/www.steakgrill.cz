@@ -45,7 +45,7 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Asijské soté z vepřové panenky&#13;
-Na nudličky krájená vepřová panenka, paprika, žampiony, cibule, cuketa, brokolice, mrkev, bambusové výhonky, sojová a Teriyaki omáčka, jasmínová rýže.&#13;
+Na nudličky krájená vepřová panenka, paprika, žampiony, cibule, cuketa, brokolice, mrkev, bambusové výhonky, zázvor, česnek, sojová a Teriyaki omáčka, jasmínová rýže.&#13;
 189 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Meruňkové knedlíky&#13;
 Kynuté knedlíky (4 ks) plněné meruňkami, sypané strouhaným tvarohem, s cukrem a přelité máslem a smetanou.&#13;
