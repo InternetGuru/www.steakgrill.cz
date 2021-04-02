@@ -89,18 +89,18 @@ Vyzrálá falešná svíčková (USA) v delikátní smetanové omáčce s koprem
 <!--   <var var="cms-server" fn="formatjidlo" id="special-predkrm2"/> -->
 <!--   <var var="cms-server" fn="formatjidlo" id="special-predkrm3"/> -->
   <set type="textarea" for="special-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Tatarský steak ze svíčkové, 150 g&#10;Námi míchaný 150g tataráček s topinkami a česnekem.&#10;289 Kč">Speciální nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="special-jidlo1" required="required">Wagyu Burger s hranolky a 2x omáčka&#13;
+  <var var="cms-server" fn="formatjidlo" id="special-jidlo1" required="required">Wagyu Burger s hranolky a 2x omáčka + nápoj&#13;
 Grilovaný steak z mletého hovězího masa z japonského plemene Wagyu (150 g), které se vyznačuje vysokým mramorováním s jedinečnou chutí, sezamová bulka, BBQ majonéza, čedar, rajče, slanina, ledový salát, cibule, okurka, hranolky, kečup, tatarka.&#13;
 249 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="special-jidlo2">Beef Burrito s hranolky a 2x omáčka&#13;
+  <var var="cms-server" fn="formatjidlo" id="special-jidlo2">Beef Burrito s hranolky a 2x omáčka + nápoj&#13;
 Zapečená pšeničná tortilla plněná tence krájeným pečeným hovězím v naší unikátní peci s kouřovým aroma, čedarová salsa, ledový salát, rajče, jarní cibulka, kukuřice, sýr čedar a gouda, hranolky, kečup, tatarka.&#13;
 219 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="special-jidlo3">Smažené kuřecí nugety s hranolky a 2x omáčka&#13;
+  <var var="cms-server" fn="formatjidlo" id="special-jidlo3">Smažené kuřecí nugety s hranolky a 2x omáčka + nápoj&#13;
 Smažené nugety z čerstvých kuřecích prsou v ochucené strouhance se sezamem, hranolky, kečup, tatarka.&#13;
 189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="special-jidlo4">Coca-Cola&#13;
-Chlazený nápoj v plechovce 0,33 L.&#13;
-33 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="special-jidlo4">Chlazený nápoj&#13;
+Coca-Cola 0,33 L v plechovce nebo neperlivá voda 0,5 L v pet lahvi.&#13;
+0 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="special-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="special-jidlo6"/>  
   
