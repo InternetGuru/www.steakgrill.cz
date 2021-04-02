@@ -91,7 +91,7 @@ Vyzrálá falešná svíčková (USA) v delikátní smetanové omáčce s koprem
   <set type="textarea" for="special-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Tatarský steak ze svíčkové, 150 g&#10;Námi míchaný 150g tataráček s topinkami a česnekem.&#10;289 Kč">Speciální nabídka – hlavní jídla</set>
   <var var="cms-server" fn="formatjidlo" id="special-jidlo1" required="required">Wagyu Burger s hranolky a 2x omáčka + nápoj&#13;
 Grilovaný steak z mletého hovězího masa z japonského plemene Wagyu (150 g), které se vyznačuje vysokým mramorováním s jedinečnou chutí, sezamová bulka, BBQ majonéza, čedar, rajče, slanina, ledový salát, cibule, okurka, hranolky, kečup, tatarka.&#13;
-249 Kč</var>
+279 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="special-jidlo2">Beef Burrito s hranolky a 2x omáčka + nápoj&#13;
 Zapečená pšeničná tortilla plněná tence krájeným pečeným hovězím v naší unikátní peci s kouřovým aroma, čedarová salsa, ledový salát, rajče, jarní cibulka, kukuřice, sýr čedar a gouda, hranolky, kečup, tatarka.&#13;
 249 Kč</var>
