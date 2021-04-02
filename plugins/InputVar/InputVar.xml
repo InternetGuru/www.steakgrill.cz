@@ -48,7 +48,7 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka( COVID)?, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka COVID, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheading" id="nabidka" required="required">Denní nabídka COVID, 1. dubna 2021</var>
+  <var var="cms-server" fn="formatheading" id="nabidka" required="required">Denní nabídka COVID, 2. dubna 2021</var>
   <var var="cms-server" id="nabidka-popis">Každý den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Zelňačka s klobásou&#13;
@@ -59,18 +59,16 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Vařené hovězí s koprovou omáčkou&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Pečený králík s vepřovým bůčkem&#13;
+Králičí pečené stehno a vepřový bok s cibulí, česnekem a provensálským kořením, náš bramborový knedlík, kyselé zelí, smažená cibule, šťáva z výpeku.&#13;
+229 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Pečené jarní kuřátko&#13;
+Jarní 1/2 kg pečené kuřátko na másle, vařené brambory s máslem a pažitkou, velikonoční nádivka s naším uzeným, mandlemi a medvědím česnekem a kopřivami, mrkvové pyré.&#13;
+219 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Vařené hovězí s koprovou omáčkou&#13;
 Vyzrálá falešná svíčková (USA) v delikátní smetanové omáčce s koprem, naše houskové knedlíky.&#13;
 189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Skotské vejce&#13;
-Vařené vejce obalené mletým hovězím a vepřovým masem, obalené v trojobalu a usmažené dozlatova, šťouchané brambory, krémový špenát.&#13;
-179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Asijské soté z vepřové panenky&#13;
-Na nudličky krájená vepřová panenka, paprika, žampiony, cibule, brokolice, mrkev, mungo výhonky, pórek, zázvor, česnek, sojová a Teriyaki omáčka, jasmínová rýže.&#13;
-189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Meruňkové knedlíky - CHLAZENÉ&#13;
-Kynuté knedlíky (4 ks) plněné meruňkami, sypané strouhaným tvarohem, s cukrem a přelité máslem a smetanou.&#13;
-159 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
