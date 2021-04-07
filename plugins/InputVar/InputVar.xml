@@ -68,10 +68,12 @@ Pomalu pečený vepřový bůček s cibulí a česnekem, naše bramborové knedl
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Taštičky plněné višněmi&#13;
 Taštičky z bramborového těsta plněné višněmi, sypané drcenými ořechy s cukrem, přelité máslem, višňová omáčka s rumem a skořicí.&#13;
 169 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Rožněné jehně - CHLAZENÉ&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Kančí guláš na černém pivě&#13;
+Maso z mladého divokého prasete sušené se slaninou, cibulí, černým pivem, naše špecle, beraní roh.&#13;
+179 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Rožněné jehně - CHLAZENÉ&#13;
 Mléčné jehně rožněné s lahůdkovými brambory, krémový špenát.&#13;
 179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1"/>
