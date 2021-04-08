@@ -111,7 +111,7 @@ Coca-Cola 0,33 L v plechovce nebo neperlivá voda 0,5 L v pet lahvi.&#13;
   <set type="textarea" for="upozorneni" pattern=".{0,150}" placeholder="Dne 22. ledna 2019 bude restaurace z technických důvodů uzavřena. Děkujeme za pochopení.">Upozornění</set>
     <set type="textarea" for="upozorneni-.+" pattern=".{0,150}" placeholder="Dne 22. ledna 2019 bude restaurace z technických důvodů uzavřena. Děkujeme za pochopení.">Upozornění</set>
   <var var="cms-server" id="upozorneni-obsah">Každý den máme pro Vás připravenou denní nabídku jídel s sebou a rozvozy. Více informací na webu nebo www.facebook.com/Steakgrill/</var>
-  <var var="cms-server" id="upozorneni-expirace">2021-04-04T06:20:22.651Z</var>
+  <var var="cms-server" id="upozorneni-expirace">2021-04-10T06:20:22.651Z</var>
 
   
   
