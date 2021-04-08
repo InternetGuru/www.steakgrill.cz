@@ -1782,3 +1782,8 @@ body[data-link="/stala_nabidka"] .section .overlay p {
   top: 0.05em;
 }
 /*********************************/
+#upozorneni + dl > *:nth-child(3),
+#upozorneni + dl > *:nth-child(4) {
+  display: none;
+}
+/*********************************/
