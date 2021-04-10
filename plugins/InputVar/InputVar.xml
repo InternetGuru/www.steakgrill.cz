@@ -74,7 +74,7 @@ Italské široké nudle s delikátní omáčkou z lesních hub, krůtí prso sou
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1">Jablečný štrúdl&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1">Jablečný štrúdl - DEZERT&#13;
 S vanilkovým krémem.&#13;
 49 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert2"/>
