@@ -48,7 +48,7 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka( COVID)?, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka COVID, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheading" id="nabidka" required="required">Denní nabídka COVID, 10. dubna 2021</var>
+  <var var="cms-server" fn="formatheading" id="nabidka" required="required">Denní nabídka COVID, 11. dubna 2021</var>
   <var var="cms-server" id="nabidka-popis">Každý den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Dršťková&#13;
@@ -59,19 +59,21 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Rožněná krkovice&#13;
-Rožněná vepřová krkovice s pivní marinádou, pod rožněm pečené lahůdkové brambory, zelný salát s křenem a červenou řepou, hořčice.&#13;
-189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Španělský ptáček&#13;
-Závitky z vyzrálé hovězí kýty (ořech, USA), plněné slaninou, cibulí, okurkou, vajíčkem a salámem v delikátní omáčce, jasmínová rýže.&#13;
-199 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Cobb salát&#13;
-Ledový salát, rajčata, avokádo, kuřecí maso, vajíčko, modrý plísňový sýr, grilovaná slanina, římský salát, pikantní Derby dresing, česneková bageta.&#13;
-209 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Tagliatelle s krůtím prsem&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Tagliatelle s krůtím prsem&#13;
 Italské široké nudle s delikátní omáčkou z lesních hub, krůtí prso sous-vide, sýr Grana Padano, olivový olej.&#13;
 179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Crispy salmon&#13;
+Steak z chlazeného lososa, připravený na olivovém oleji s křupavou kůží, šťouchané brambory s pórkem a slaninou, cherry rajčata, náš dresing.&#13;
+219 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Konfitovaná krkovice&#13;
+V sádle pomalu pečená krkovice, mléčná bramborová kaše s oříškovým máslem, okurkový salát.&#13;
+189 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Hovězí guláš&#13;
+Dušená libová hovězí kližka s cibulí a červenou paprikou, naše špekové knedlíky, červená cibulka.&#13;
+179 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Španělský ptáček - CHLAZENÉ&#13;
+Závitky z vyzrálé hovězí kýty (ořech, USA), plněné slaninou, cibulí, okurkou, vajíčkem a salámem v delikátní omáčce, jasmínová rýže.&#13;
+159 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1">Jablečný štrúdl - DEZERT&#13;
