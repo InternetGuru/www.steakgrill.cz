@@ -60,7 +60,7 @@ Velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Pečené sele po selsku&#13;
-Pomalu pečené 14.kg sele s cibulí, česnekem a kmínem, naše bramborové knedlíky, kysané zelí, smažená cibule, šťáva z výpeku.&#13;
+Pomalu pečené 14kg sele s cibulí, česnekem a kmínem, naše bramborové knedlíky, kysané zelí, smažená cibule, šťáva z výpeku.&#13;
 179 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Cobb salát &#13;
 Ledový salát, rajčata, avokádo, kuřecí maso, vajíčko, modrý plísňový sýr, grilovaná slanina, římský salát, pikantní Derby dresing, česneková bageta.&#13;
