@@ -69,9 +69,7 @@ Na nudličky krájená vepřová panenka v delikátní smetanové omáčce se ž
 Plátky z kýty a kotlety mladého divokého prasete, sůl, pepř, česnek, majoránka, obalené v trojobalu a usmažené dozlatova, náš bramborový salát, citron.&#13;
 199 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4"/>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Vepřové na paprice - CHLAZENÉ &#13;
-Pomalu dušená vepřová plec s cibulí a červenou paprikou v delikátní smetanové omáčce, naše špecle.&#13;
-149 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1"/>
