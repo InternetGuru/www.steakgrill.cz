@@ -62,7 +62,7 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Pečené husí stehno&#13;
 Pomalu pečená maďarská husí stehna se solí a kmínem, naše bramborové knedlíky, červené vinné zelí, šťáva z výpeku.&#13;
 209 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Vepřová žebra&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">BBQ vepřová žebra&#13;
 Pečená v naší BBQ omáčce, šťouchané brambory s pórkem a slaninou, česnekový dip.&#13;
 199 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Kančí guláš&#13;
