@@ -48,11 +48,11 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka( COVID)?, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka COVID, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheading" id="nabidka" required="required">Denní nabídka COVID, 15. května 2021</var>
+  <var var="cms-server" fn="formatheading" id="nabidka" required="required">Denní nabídka COVID, 16. května 2021</var>
   <var var="cms-server" id="nabidka-popis">Každý den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Zelňačka s klobásou&#13;
-Brambor, cibule, smetana.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Gulášová&#13;
+Taková, jaká má být, s kousky hovězího masa.&#13;
 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka2"/>
   <set type="textarea" for="nabidka-predkrm\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Tatarský steak ze svíčkové, 50 g&#10;Námi míchaný 50g tataráček s topinkami a česnekem.&#10;129 Kč">Denní nabídka – předkrmy</set>
@@ -63,11 +63,11 @@ Brambor, cibule, smetana.&#13;
 Vejmrda, pikantní salát z kysaného zelí, hořčice, podmáslový chléb.&#13;
 569 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Náš zabijačkový guláš&#13;
-Vepřová krkovička, játra, ledvinky, srdce, smažená cibulka, houskové knedlíky nebo vařený brambor, červená cibule s křenem.&#13;
+Vepřová krkovička, játra, ledvinky, srdce, smažená cibulka, houskové knedlíky, červená cibule s křenem.&#13;
 169 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Vepřové výpečky&#13;
-Pomalu pečený vepřový bůček a krkovice, kysané zelí, naše bramborové knedlíky, smažená cibulka.&#13;
-169 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Grilované supréme z olivového kuřete&#13;
+Kuřecí prso ze zlatého kuřete s kůží a části křídla v bylinkové marinádě, lahůdkové brambory s máslem a pažitkou, mrkvové pyré.&#13;
+229 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Tatarský steak ze svíčkové, 150 g&#13;
 Námi míchaný 150g tatarák s topinkami a česnekem.&#13;
 259 Kč</var>
