@@ -66,14 +66,14 @@ Vejmrda, pikantní salát z kysaného zelí, hořčice, podmáslový chléb.&#13
 Vepřová krkovička, játra, ledvinky, srdce, smažená cibulka, houskové knedlíky, červená cibule s křenem.&#13;
 169 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Grilované supréme z olivového kuřete&#13;
-Kuřecí prso ze zlatého kuřete s kůží a části křídla v bylinkové marinádě, lahůdkové brambory s máslem a pažitkou, mrkvové pyré.&#13;
+Kuřecí prso z olivového kuřete s kůží a části křídla v bylinkové marinádě, lahůdkové brambory s máslem a pažitkou, mrkvové pyré.&#13;
 229 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Tatarský steak ze svíčkové, 150 g&#13;
 Námi míchaný 150g tatarák s topinkami a česnekem.&#13;
 259 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Jablečný štrůdl&#13;
-Jablečný štrůdl s vanilkovým krémem.&#13;
-39 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Hovězí líčka na zelenině - CHLAZENÉ&#13;
+Dušené líčka na kořenové zelenině a černém pivu, šťouchané brambory s pórkem a slaninou.&#13;
+199 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1"/>
