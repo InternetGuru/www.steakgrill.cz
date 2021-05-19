@@ -48,7 +48,7 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka( COVID)?, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka COVID, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheading" id="nabidka" required="required">Denní nabídka COVID, 18. května 2021</var>
+  <var var="cms-server" fn="formatheading" id="nabidka" required="required">Denní nabídka COVID, 19. května 2021</var>
   <var var="cms-server" id="nabidka-popis">Každý den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Kulajda&#13;
@@ -60,21 +60,21 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Pražená rýže s plody moře&#13;
-Krevety, mušle, sépiové kroužky, cibule, červená a zelená paprika, kukuřice, rajčata, hrášek, mrkev, koření, koriandr, sázené vejce a kyselá okurka.&#13;
-189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Naše halušky (strapačky)&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Vepřové ledvinky&#13;
+Dušené ledvinky s cibulí, slaninou a žampiony v delikátní omáčce, Risi-Bisi (rýže s hráškem).&#13;
+169 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Naše strapačky&#13;
 Bramborové nočky, kysané zelí, cibule, uzená krkovice.&#13;
 179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Holandský řízek&#13;
-Mleté vepřové maso se sýrem gouda smažené v trojobalu dozlatova, mléčná bramborová kaše, zelný salát s mrkví a jablky.&#13;
-179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Španělský ptáček - CHLAZENÉ&#13;
-Závitky z vyzrálé brazilské kýty plněné slaninou, cibulí, kyselou okurkou, vajíčkem a salámem v delikátní omáčce, jasmínová rýže.&#13;
-199 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Náš zabijačkový guláš - CHLAZENÉ&#13;
-Vepřová krkovička, játra, ledvinky, srdce, smažená cibulka, houskový knedlíky, červená cibule s křenem.&#13;
-159 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Treska tmavá na másle&#13;
+Filet z tresky tmavé opečený na másle, vařené lahůdkové brambory s pažitkou, brokolice na másle.&#13;
+189 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Turkey Smoked Burger&#13;
+Trhané krůtí maso pečené v naší peci s kouřovým aroma, sezamová bulka, pikantní majonéza s chilli papričkami a medem, ledový salát, rajče, sýr čedar, smažená cibulka, hranolky, Coleslaw.&#13;
+239 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Pražená rýže s plody moře - CHLAZENÉ&#13;
+Krevety, mušle, sépiové kroužky, cibule, červená a zelená paprika, kukuřice, rajčata, hrášek, mrkev, koření, koriandr, sázené vejce a kyselá okurka.&#13;
+189 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1"/>
