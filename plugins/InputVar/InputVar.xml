@@ -65,7 +65,7 @@ Na bukovém dřevě, pečené lahůdkové brambory ve slupce, krémový špenát
 229 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Španělský ptáček&#13;
 Závitky z vyzrálé hovězí kýty, plněné slaninou, cibulí, okurkou, vajíčkem a salámem v delikátní omáčce, Risi-Bisi (rýže s hráškem).&#13;
-189 Kč</var>
+199 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Kančí se šípkovou&#13;
 Dušená kýta a hřbet z mladého divočáka s kořenovou zeleninou, červeným vínem, divokým kořením a šípkovou marmeládou, naše karlovarské knedlíky, citron, brusinky.&#13;
 229 Kč</var>
@@ -73,9 +73,7 @@ Dušená kýta a hřbet z mladého divočáka s kořenovou zeleninou, červeným
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1">Jablečný závin&#13;
-S vanilkovým krémem.&#13;
-59 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert2"/>
   <set type="textarea" for="nabidka-pecivo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Škvarková placka naší Aničky&#10;Mouka, vepřové škvarky, kmín a sůl.&#10;35 Kč">Denní nabídka – pečivo</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-pecivo1"/>
