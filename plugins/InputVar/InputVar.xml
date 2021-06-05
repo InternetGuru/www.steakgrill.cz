@@ -33,30 +33,30 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka( COVID)?, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka COVID, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 4. června 2021</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka COVID, 5. června 2021</var>
   <var var="cms-server" id="nabidka-popis">Každý den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Česnečka&#13;
-Brambory, kořenová zelenina, chlebové krutony, sýr Gouda.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Zelňačka s klobásou&#13;
+Kysané zelí, brambory, smetana.&#13;
 malá 49 Kč&#13;
 velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka2"/>
   <set type="textarea" for="nabidka-predkrm\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Tatarský steak ze svíčkové, 50 g&#10;Námi míchaný 50g tataráček s topinkami a česnekem.&#10;129 Kč">Denní nabídka – předkrmy</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1">Roastbeef&#13;
+Dorůžova upečený vyzrálý uruguayský roštěnec, malý salát z listových salátů a cherry rajčat,  naše tatarská omáčka, opečená bageta s česnekovým máslem.&#13;
+169 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Svíčková Wellington&#13;
-Steak ze svíčkové upečený v listovém těstě se směsí z hub, slaniny, cibule, petrželky, šťouchané brambory se slaninou a pórkem, krémový špenát.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Rožněné vepřové koleno&#13;
+Pomalu rožněné přední vepřové koleno, podmáslový chléb, smetanový křen, pikantní salát z kysaného zelí, hořčice.&#13;
 249 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Vepřová játra na cibuli a slanině&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Kančí guláš&#13;
+Na kostky krájené maso z mladého divokého prasete, cibule, česnek, paprika, naše houskové knedlíky, čerstvá cibule.&#13;
+199 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Vepřová játra na cibuli a slanině&#13;
 Vepřová játra krájená na plátky, dušená na cibuli a slanině, Risi-Bisi (rýže s hráškem).&#13;
 169 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Vepřová roláda&#13;
-Plněný vepřový bůček, mleté vepřové maso, česnek, paprika, přírodní šťáva, mléčná bramborová kaše, kyselá okurka.&#13;
-179 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Pražená rýže s vepřovou panenkou&#13;
-Vepřová panenka, jasmínová rýže, cibule, paprika, mrkev, hrášek, kukuřice, pórek, žampiony, vaječná omeleta, smažená cibulka, sázené vejce, rajčatový salát.&#13;
-189 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
