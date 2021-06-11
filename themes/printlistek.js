@@ -293,7 +293,7 @@ dl.meal dd:not(.price) {
     
 const styles2 = `
 body > div {
-  width: 147mm;
+  width: 148.25mm;
   height: 209mm;
 }
 body > div > div > * {
@@ -320,6 +320,28 @@ h1 {
       childrenSelector: [".daily_offer dl.meal"],
       allChildren: true,
       copies: 4
+    })
+    
+    var meals = document.querySelectorAll(".daily_offer dl.meal")
+    var meals1 = []
+    var meals2 = []
+
+    for (var i = 0; i < meals.length; i++) {
+      if (i < meals.length / 2) {
+        meals2 += "\n body > div:nth-child(2) dl:nth-of-type(" + (i+1) + ") { display:none; }"
+        continue
+      }
+       meals1 += "\n body > div:nth-child(1) dl:nth-of-type(" + (i+1) + ") { display:none; }"
+    }
+
+    var printable = new Printable()
+    printable.init({
+      styles: styles + styles2 + meals1 + meals2,
+      parentSelector: '#denni_nabidka, #daily_offer',
+      printButtonText: 'Tisk na dvě strany A5',
+      childrenSelector: [".daily_offer dl.meal"],
+      allChildren: true,
+      copies: 2
     })
     var printable = new Printable()
     printable.init({
