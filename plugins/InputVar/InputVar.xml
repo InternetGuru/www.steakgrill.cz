@@ -69,7 +69,10 @@ Vyzrálé jahody z Doksan zapečené v jemném těstě s máslem a vanilkou, má
   <set type="textarea" for="nabidka-pecivo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Škvarková placka naší Aničky&#10;Mouka, vepřové škvarky, kmín a sůl.&#10;35 Kč">Denní nabídka – pečivo</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-pecivo1"/>
   <set type="textarea" for="nabidka-pivo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*(\n\d,\d l \d+ Kč)+" placeholder="Benedict ležák 12°&#10;Klasická světlá dvanáctka z Břevnovského klášterního pivovaru. Vyrobena tradičním způsobem. Vyznačuje se plností a silnou chutí s jemnou hořkostí.&#10;0,3 l 32 Kč&#10;0,5 l 47 Kč">Denní nabídka – pivo</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-pivo1"/>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-pivo1">American Pale Ale 11° Libertas&#13;
+Speciální pivo svrchně kvašené (APA) uvařené z několika druhů sladu a kvalitních chmelů, které kromě jemné hořkosti zanechávají ve vůni i v chuti znatelné aroma tropického ovoce. Vyvážená sladová chuť s tóny karamelu, doplněná citrusovou chmelovou hořkostí.&#13;
+0,3 l 32 Kč&#13;
+0,5 l 52 Kč</var>
 
 
   
@@ -105,8 +108,8 @@ Kuřecí prso naloženo v pikantní marinádě.&#13;
   <var var="cms-server" fn="formatjidlo" id="special-jidlo6"/>  
   
   <set type="textarea" for="upozorneni-.+" pattern=".{0,150}" placeholder="Dne 22. ledna 2019 bude restaurace z technických důvodů uzavřena. Děkujeme za pochopení.">Upozornění</set>
-  <var var="cms-server" id="upozorneni-obsah"/>
-  <var var="cms-server" id="upozorneni-expirace">2021-06-04T17:30:54.494Z</var>
+  <var var="cms-server" id="upozorneni-obsah">Dne 12.6. v sobotu bude restaurace uzavřena od 16h z důvodu konání společenské akce.</var>
+  <var var="cms-server" id="upozorneni-expirace">2021-06-13T10:14:43.229Z</var>
   
   
   <fn id="formathlavickaakce" fn="pregreplace" pattern="(.+)\n(.+)\n(.+)" replacement="&lt;a href='\2' class='button button-img'&gt;&lt;span class='\3'&gt;i&lt;/span&gt; \1&lt;/a&gt;"/>
