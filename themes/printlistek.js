@@ -314,7 +314,25 @@ h1 {
  
     var printable = new Printable()
     printable.init({
-      styles: styles + styles2,
+      styles: styles + styles2 + `
+      h1 {
+        padding-top: 0.75em;
+        padding-bottom: 0.75em;
+        font-size: 1.5em
+      }
+      dl.meal {
+        padding-bottom: 0;
+        padding-top: 0.35em;
+        position: relative;
+        left: 0.25em;
+      }
+      dl.meal dt {
+        margin-bottom: 0.15em;
+      }
+      dl.meal dd.price {
+        margin-top: 0;
+      }
+      `,
       parentSelector: '#denni_nabidka, #daily_offer',
       printButtonText: 'Tisk 4 × A5',
       childrenSelector: [".daily_offer dl.meal"],
