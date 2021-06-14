@@ -36,8 +36,8 @@
   <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka, 13. června 2021</var>
   <var var="cms-server" id="nabidka-popis">Každý den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Mexický česnekový krém&#13;
-Máslové krutony.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Květáková polévka s nočky&#13;
+Tradiční česká polévka z květáku, cibule a smetany.&#13;
 malá 49 Kč&#13;
 velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka2"/>
@@ -45,22 +45,17 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Rožněná krkovice&#13;
-Pomalu rožněná vepřová krkovice, pod rožněm pečené lahůdkové brambory ve slupce, cibulový salát, hořčice.&#13;
-189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Řízek z krkovice, 200 g&#13;
-V trojobalu dozlatova smažený řízek z libové krkovice, náš bramborový salát, citron.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Znojemská roštěná&#13;
+Dušená vyzrálá brazilská roštěná v delikátní omáčce s tence krájenými kyselými okurkami, jasmínová rýže.&#13;
 199 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Pečená kachna s jablky&#13;
-Naše bramborové knedlíky, červené vinné zelí, smažená vídeňská cibulka, šťáva z výpeku.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">BBQ hovězí žebra&#13;
+Pomalu konfitovaná hovězí žebra grilovaná s BBQ omáčkou, šťouchané brambory s pórkem a slaninou, česnekový dip.&#13;
 229 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Tatarský steak ze svíčkové&#13;
-Námi míchaný, topinky s česnekem.&#13;
-50g 129 Kč&#13;
-150g 289 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Geschnetzeltes&#13;
-Švýcarská specialita, na nudličky krájená vepřová panenka v delikátní omáčce s bílým vínem a žampiony, bramborové rösti.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Řízek z panenky&#13;
+V trojobalu dozlatova smažený řízek z vepřové panenky, lahůdkové brambory s máslem a pažitkou, míchaný salát s balkánským sýrem, citron.&#13;
 189 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4"/>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1"/>
