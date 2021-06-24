@@ -67,8 +67,8 @@ Trhané kachní maso s naší BBQ omáčkou, medovo-hořčicová majonéza, ledo
   <set type="textarea" for="nabidka-pivo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*(\n\d,\d l \d+ Kč)+" placeholder="Benedict ležák 12°&#10;Klasická světlá dvanáctka z Břevnovského klášterního pivovaru. Vyrobena tradičním způsobem. Vyznačuje se plností a silnou chutí s jemnou hořkostí.&#10;0,3 l 32 Kč&#10;0,5 l 47 Kč">Denní nabídka – pivo</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-pivo1">Padre Fucho Ale 10° Zichovec&#13;
 Osvěžující, krásně lehké a skvěle pitelné. Tento letní „ejl“ se vyznačuje lehkou citrusovou vůní i chutí spolu s příjemnými chmelovými tóny. Povedená desítka, kterou zaženete žízeň.&#13;
-0,3 l 32 Kč&#13;
-0,5 l 49 Kč</var>
+0,3 l 35 Kč&#13;
+0,5 l 54 Kč</var>
 
 
   
