@@ -33,7 +33,7 @@
 
   
   <set type="text" for="nabidka" pattern="Denní nabídka( COVID)?, \d?\d. (ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince) 20\d\d" placeholder="Denní nabídka COVID, 16. dubna 2018">Denní nabídka</set>
-  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka, 23. června 2021</var>
+  <var var="cms-server" fn="formatheadingnbsp" id="nabidka" required="required">Denní nabídka, 24. června 2021</var>
   <var var="cms-server" id="nabidka-popis">Každý den vaříme obědové menu z čerstvých surovin.</var>
   <set type="textarea" for="nabidka-polevka\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Scotch Broth&#10;Skotská polévka ze skopového masa se zeleninou, kroupami a tymiánem.&#10;malá 43 Kč&#10;velká 49 Kč">Denní nabídka – polévky</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-polevka1" required="required">Zvěřinový vývar&#13;
@@ -45,16 +45,18 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm1"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Smažené nugety z lososa&#13;
-V trojobalu dozlatova smažené nugety z lososa, bramborovo-hráškové pyré, zelný salát s mrkví a křenem.&#13;
-189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Naše strapačky (halušky)&#13;
-S naší uzenou krkovicí a kyselým zelím.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Roastbeef&#13;
+Dorůžova při nízké teplotě pečený vyzrálý argentinský roštěnec, vařené nové brambory s petrželkou, naše tatarská omáčka.&#13;
+239 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Segedínský guláš&#13;
+Krájená vepřová plec a krkovice ve smetanové omáčce s kysaným zelím a červenou paprikou, naše houskové knedlíky.&#13;
 169 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Trhaný kachní burger&#13;
-Trhané kachní maso s naší BBQ omáčkou, medovo-hořčicová majonéza, ledový salát, marinovaná červená cibule, hranolky, Coleslaw.&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Naše strapačky (halušky)&#13;
+S naším uzeným a kyselým zelím.&#13;
+169 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Trhaný kachní burger&#13;
+Trhané kachní maso s naší BBQ omáčkou, medovo-hořčicová majonéza, ledový salát, rajče, marinovaná červená cibule, hranolky, Coleslaw.&#13;
 229 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
@@ -63,7 +65,10 @@ Trhané kachní maso s naší BBQ omáčkou, medovo-hořčicová majonéza, ledo
   <set type="textarea" for="nabidka-pecivo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Škvarková placka naší Aničky&#10;Mouka, vepřové škvarky, kmín a sůl.&#10;35 Kč">Denní nabídka – pečivo</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-pecivo1"/>
   <set type="textarea" for="nabidka-pivo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].+\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*(\n\d,\d l \d+ Kč)+" placeholder="Benedict ležák 12°&#10;Klasická světlá dvanáctka z Břevnovského klášterního pivovaru. Vyrobena tradičním způsobem. Vyznačuje se plností a silnou chutí s jemnou hořkostí.&#10;0,3 l 32 Kč&#10;0,5 l 47 Kč">Denní nabídka – pivo</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-pivo1"/>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-pivo1">Padre Fucho Ale 10° Zichovec&#13;
+Osvěžující, krásně lehké a skvěle pitelné. Tento letní „ejl“ se vyznačuje lehkou citrusovou vůní i chutí spolu s příjemnými chmelovými tóny. Povedená desítka, kterou zaženete žízeň.&#13;
+0,3 l 32 Kč&#13;
+0,5 l 49 Kč</var>
 
 
   
