@@ -48,18 +48,16 @@ velká 55 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Smažené kuře&#13;
 Naložené kousky kuřete obalené v ochucené strouhance se sezamem, mléčná bramborová kaše, zelný salát s mrkví a křenem.&#13;
 189 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Segedínský guláš&#13;
-Krájená vepřová plec a krkovice ve smetanové omáčce s kysaným zelím a červenou paprikou, naše houskové knedlíky.&#13;
-169 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Naše strapačky (halušky)&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Naše strapačky (halušky)&#13;
 S naším uzeným a kyselým zelím.&#13;
 169 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Pštrosí stew&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo3">Pštrosí stew&#13;
 Dušené pštrosí maso z kýty a pštrosí srdce s cibulí, mrkví, řapíkatým celerem a bramborem, 1/2 opečené bagety s česnekovým máslem.&#13;
 199 Kč</var>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5">Škvarková placka&#13;
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo4">Škvarková placka&#13;
 Od naší Aničky.&#13;
 19 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo5"/>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo6"/>
   <set type="textarea" for="nabidka-dezert\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Jablečný závin&#10;S ořechy, rozinkami a vanilkovým krémem.&#10;80 Kč">Denní nabídka – dezert</set>
   <var var="cms-server" fn="formatjidlo" id="nabidka-dezert1"/>
