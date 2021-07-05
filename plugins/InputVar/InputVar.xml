@@ -47,9 +47,9 @@ Plátky studeného kouřem uzeného lososa s gravlax omáčkou a kapary, míchan
 129 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-predkrm2"/>
   <set type="textarea" for="nabidka-jidlo\d+" pattern="[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][^\/0-9]+(, \d{1,4} g)?\n\s*[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ].*\.(\n\d+ Kč|(\n\S+ +\d+ Kč)+)" placeholder="Telecí kýta na paprice&#10;Telecí kýta s delikátní smetanovou omáčkou s paprikou a s našimi houskovými knedlíky.&#10;179 Kč (volitelně)">Denní nabídka – hlavní jídla</set>
-  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Srnčí ragú&#13;
-Na kousky krájený váleček z kýty, dušený s liškami a žampiony ve smetanové omáčce z bílého vína, naše špekové knedlíky.&#13;
-199 Kč</var>
+  <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo1" required="required">Srnčí na červeném víně&#13;
+Srnčí maso z Kokořína dušené s kořenovou zeleninou, cibulí, červeným vínem a kořením, naše špekové knedlíky.&#13;
+219 Kč</var>
   <var var="cms-server" fn="formatjidlo" id="nabidka-jidlo2">Smažený krůtí řízek&#13;
 V trojobalu dozlatova smažený plátek z krůtích prsou, vařené lahůdkové brambory s máslem a pažitkou, zelný salát s červenou řepou a křenem.&#13;
 189 Kč</var>
