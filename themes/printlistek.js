@@ -387,6 +387,23 @@ h1 {
       h1 {
         padding-top: 1em;
       }
+      h1 {
+        padding-top: 0.75em;
+        padding-bottom: 0.75em;
+        font-size: 1.5em
+      }
+      dl.meal {
+        padding-bottom: 0;
+        padding-top: 0.35em;
+        position: relative;
+        left: 0.25em;
+      }
+      dl.meal dt {
+        margin-bottom: 0.15em;
+      }
+      dl.meal dd.price {
+        margin-top: 0;
+      }
       `,
       parentSelector: '#denni_nabidka, #daily_offer',
       printButtonText: 'Export',
