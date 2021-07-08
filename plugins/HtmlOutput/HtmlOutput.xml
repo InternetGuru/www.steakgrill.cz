@@ -13,7 +13,7 @@
   <themes>
     <theme id="sg">
       <!-- js -->
-            <jsFile append="body">themes/fa-subset.js</jsFile>
+<!--             <jsFile append="body">themes/fa-subset.js</jsFile> -->
 <!--       <jsFile append="body">themes/lib/fa.js</jsFile> -->
       <jsFile append="head">themes/lib/webfont.js</jsFile>
       <jsFile append="head">themes/lib/fontloader.js</jsFile>
